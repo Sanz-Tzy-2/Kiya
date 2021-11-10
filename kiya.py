@@ -90,9 +90,9 @@ def tod():
 
 # LO KONTOL
 logo = ''' \033[0;96m __  __        __  ______  ____
- \033[0;96m \ \/ / ____  /  |/  / _ )/ __/ ®\033[0m|| Created By Aang-XD
- \033[0;96m  \  / /___/ / /|_/ / _  / _/    \033[0m|| Github.com/AngCyber
- \033[0;96m  /_/       /_/  /_/____/_/\033[0;91mv2.0  \033[0m|| Facebook.com/KM39453'''
+ \033[0;96m \ \/ / ____  /  |/  / _ )/ __/ ®\033[0m|| • Created By Aang-XD
+ \033[0;96m  \  / /___/ / /|_/ / _  / _/    \033[0m|| • Github.com/AngCyber
+ \033[0;96m  /_/       /_/  /_/____/_/\033[0;91mv2.0  \033[0m|| • Facebook.com/KM39453'''
 
 lo_ngentod = '1714009362122228'
 # crack selesai
@@ -119,14 +119,14 @@ def yayanxd():
         yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
-        print '\n\n %s*%s selamat datang %s%s%s'%(O,N,K,nama,N);time.sleep(2)
+        print '\n\n %s*%s Selamat datang --> %s%s%s'%(O,N,K,nama,N);time.sleep(2)
         print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
-        raw_input(' %s*%s tekan enter '%(O,N));wuhan(kontol)
+        raw_input(' %s*%s TEKAN ENTER '%(O,N));wuhan(kontol)
         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
         moch_yayan()
     except KeyError:
-        print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(2);yayanxd()
+        print '\n\n %s[%s!%s] token invalid sayang'%(N,M,N);time.sleep(2);yayanxd()
 
 ### ORANG GANTENG ###
 def moch_yayan():
@@ -134,11 +134,11 @@ def moch_yayan():
     try:
     	kontol = open('.memek.txt', 'r').read()
     except IOError:
-        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] token invalid sayang'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
     except KeyError:
-        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] token invalid sayang'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] tidak ada koneksi\n'%(N,M,N))
     os.system('clear')
