@@ -1,6 +1,6 @@
 # Kiya (Saskiya)
 ☆Made with Aang☆
- Dibuat dengan ♥️ oleh Aang
+Dibuat dengan ♥️ oleh Aang
 
 # Install Script Kiya
 📎 pkg update && pkg upgrade
