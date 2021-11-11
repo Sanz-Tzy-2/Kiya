@@ -110,10 +110,10 @@ def yayanxd():
     print (' %s(*)%s tools ini menggunakan login token facebook!!.\n %s(*)%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s(*)%s ketik %s(OPEN)%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
     kontol = raw_input('\n %s[%s?%s] Masukkan Token :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
-        print '\n%s *%s NOTE!! : usahakan akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
-        print '%s *%s jangan lupa!! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
-        print '%s *%s setelah di alihkan ke google chrome. klik %stitik tiga'%(B,N,H);time.sleep(2)
-        print '%s *%s lalu klik %sCari di Halaman%s Tinggal ketik %sEAAA%s Lalu salin.'%(B,N,H,N,H,N);time.sleep(2)
+        print '\n%s (*)%s NOTE!!: usahakan pakai akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
+        print '%s (*)%s jangan lupa!! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
+        print '%s (*)%s setelah di alihkan ke google chrome. klik %stitik tiga'%(B,N,H);time.sleep(2)
+        print '%s (*)%s lalu klik %sCari di Halaman%s Tinggal ketik %sEAAA%s Lalu salin.'%(B,N,H,N,H,N);time.sleep(2)
         raw_input(' %s*%s TEKAN ENTER SAYANG '%(O,N))
         os.system('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
         yayanxd()
@@ -146,7 +146,7 @@ def moch_yayan():
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) NAMA KAMU : %s'%(nama);time.sleep(0.03)
-    print ' (\033[0;96m•\033[0m) IP KAMU    : %s'%(IP)
+    print ' (\033[0;96m•\033[0m) IP KAMU         : %s'%(IP)
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' %s•%s Author : Aang Ardiansyah'%(O,N);time.sleep(0.03)
     print ' %s•%s Github : Github.com/AngCyber'%(O,N);time.sleep(0.03)
