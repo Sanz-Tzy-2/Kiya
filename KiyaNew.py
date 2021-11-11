@@ -114,19 +114,19 @@ def yayanxd():
         print '%s [•]%s jangan lupa!! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
         print '%s [•]%s setelah di alihkan ke google chrome. klik %stitik tiga'%(B,N,H);time.sleep(2)
         print '%s [•]%s lalu klik %s(Cari di Halaman)%s Tinggal ketik %sEAAA%s Lalu salin.'%(B,N,H,N,H,N);time.sleep(2)
-        raw_input(' %s[•]%s Tekan Enter Sad!! '%(O,N))
+        raw_input(' %s[•]%s TEKAN ENTER BNGSD!! '%(O,N))
         os.system('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
         yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
-        print '\n\n %s[•]%s Selamat Datang -> (%s%s%s)'%(O,N,K,nama,N);time.sleep(2)
+        print '\n\n %s[•]%s Selamat Datang -> [%s%s%s]'%(O,N,K,nama,N);time.sleep(2)
         print ' %s[•]%s mohon untuk menggunakan script ini sewajarnya saja,   admin tidak bertanggung jawab jika script ini disalah gunakan!!'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
-        raw_input(' %s[•]%s Tekan Enter Sad!! '%(O,N));wuhan(kontol)
+        raw_input(' %s[•]%s TEKAN ENTER BNGSD!! '%(O,N));wuhan(kontol)
         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
         moch_yayan()
     except KeyError:
-        print '\n\n %s[%s!%s] TOKEN INVALID SAYANG!!'%(N,M,N);time.sleep(2);yayanxd()
+        print '\n\n %s[%s!%s] TOKEN INVALID NGENTOD!!'%(N,M,N);time.sleep(2);yayanxd()
 
 ### ORANG GANTENG ###
 def moch_yayan():
@@ -134,24 +134,24 @@ def moch_yayan():
     try:
     	kontol = open('.memek.txt', 'r').read()
     except IOError:
-        print '\n %s[%s×%s] Token Salah Ngentot!!'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] TOKEN NYA SALAH KENTOD!!'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
     except KeyError:
-        print '\n %s[%s×%s] Token Salah Ngentot!!'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] TOKEN NYA SALAH KENTOD!!'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] tidak ada koneksi\n'%(N,M,N))
     os.system('clear')
     print logo
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
     print '___________________________________________________________\n';time.sleep(0.03)
-    print ' [\033[0;96m•\033[0m] NAMA KAMU : %s'%([nama]);time.sleep(0.03)
-    print ' [\033[0;96m•\033[0m] IP KAMU   : %s'%([IP])
+    print ' [\033[0;96m•\033[0m] NAMA KAMU : %s'%(nama]);time.sleep(0.03)
+    print ' [\033[0;96m•\033[0m] IP KAMU   : %s'%((IP)
     print '___________________________________________________________\n';time.sleep(0.03)
-    print ' %s[•]%s Author  : Aang Ardiansyah-XD'%(O,N);time.sleep(0.03)
-    print ' %s[•]%s Github  : Github.com/AngCyber'%(O,N);time.sleep(0.03)
-    print ' %s[•]%s Contact : 089524163441'%(O,N); time.sleep(0.03)
-    print ' %s[•]%s Dibuat  : Untuk Mengekrekk Pacebuk:v'%(O,N); time.sleep(0.03)
+    print ' %s╔═[%s Author  : Aang Ardiansyah-XD'%(O,N);time.sleep(0.03)
+    print ' %s╠═[ %s Github  : Github.com/AngCyber'%(O,N);time.sleep(0.03)
+    print ' %s╠═[ %s Contact : 089524163441'%(O,N); time.sleep(0.03)
+    print ' %s╚═[%s Dibuat  : Untuk Mengekrekk Pacebuk:v'%(O,N); time.sleep(0.03)
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [%s01%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
     print ' [%s02%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
@@ -519,7 +519,7 @@ def cek_ingfo(kontol):
 def info_tools():
     os.system('clear')
     print ' %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
-    print '\n %s[%s>%s] Yt       : Yayan XD.'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Yt       : Mask Rabbit Team.'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s>%s] Author   : Aang Ardiansyah-XD.'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s>%s] Github   : https://github.com/AngCyber'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s>%s] Facebook : https://www.facebook.com/clubfunbike'%(N,H,N);time.sleep(0.07)
