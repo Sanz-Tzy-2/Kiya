@@ -107,7 +107,9 @@ def hasil(ok,cp):
 #masuk token
 def yayanxd():
     os.system('clear')
-    print (' %s(*)%s tools ini menggunakan login token facebook!!.\n %s(*)%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s(*)%s ketik %s(OPEN)%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
+    print (' %s[•]%s tools ini menggunakan login token facebook!!.\n'%(O,N,O,N,O,N,H,N))
+    print (' %s[•]%s apakah kamu sudah tau cara mendapatkan token facebook?\n'%(O,NO,N,O,N,H,N))    
+    print (' %s[•]%s ketik %s(OPEN)%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
     kontol = raw_input('\n %s[%s?%s] Masukan Token :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
         print '\n%s (*)%s NOTE!!: usahakan pakai akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
@@ -119,10 +121,12 @@ def yayanxd():
         yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
-        print '\n\n %s*%s Selamat datang --> %s%s%s'%(O,N,K,nama,N);time.sleep(2)
-        print ' %s*%s mohon untuk menggunakan script ini sewajarnya saja,  admin tidak bertanggung jawab jika script ini disalah gunakan!!'%(O,N);time.sleep(2)
+        print '\n\n %s[*]%s Selamat Datang -> %(s%s%s)'%(O,N,K,nama,N);time.sleep(2)
+        print ' %s[•]%s Mohon untuk menggunakan script ini sewajarnya saja,'%(O,N);time.sleep(1)
+        print ' %s[•]%s Admin tidak bertanggung jawab'%(O,N);time.sleep(1)
+        print ' %s[•]%s Jika script ini disalah gunakan!!'%(O,N);time.sleep(1)
         open('.memek.txt', 'w').write(kontol)
-        raw_input(' %s*%s TEKAN ENTER SAYANG!! '%(O,N));wuhan(kontol)
+        raw_input(' %s[•]%s Tekan Enter Sayang '%(O,N));wuhan(kontol)
         os.system('xdg-open https://youtube.com/channel/UCqwjydkaE3y0qo-3Yl3yL3A')
         moch_yayan()
     except KeyError:
