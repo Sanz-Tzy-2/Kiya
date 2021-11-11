@@ -27,4 +27,4 @@ Dibuat dengan ♥️ oleh Aang
 
 📎 python2 KiyaNew.py
 
-# IMG_20211111_231906.jpg
+# Yo ndak tau kok tanya saia:v
