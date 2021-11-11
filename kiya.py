@@ -93,12 +93,17 @@ logo = ''' \033[0;96m __  __        __  ______  ____
  \033[0;96m \ \/ / ____  /  |/  / _ )/ __/ ®\033[0m|| • Created By Aang-XD
  \033[0;96m  \  / /___/ / /|_/ / _  / _/    \033[0m|| • Github.com/AngCyber
  \033[0;96m  /_/       /_/  /_/____/_/\033[0;91mv2.0  \033[0m|| • Facebook.com/KM39453'''
+    print '___________________________________________________________\n';time.sleep(0.03)
+    print ' %s•%s Author : Aang Ardiansyah'%(O,N);time.sleep(0.03)
+    print ' %s•%s Github : Github.com/AngCyber'%(O,N);time.sleep(0.03)
+    print ' %s•%s Contac : 089524163441'%(O,N); time.sleep(0.03)
+    print '___________________________________________________________\n';time.sleep(0.03)
 
 lo_ngentod = '1714009362122228'
 # crack selesai
 def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
-        print '\n\n %s[%s#%s] crack selesai...'%(N,K,N)
+        print '\n\n %s[%s#%s] crack selesai bro...'%(N,K,N)
         print '\n\n [%s+%s] total OK : %s%s%s'%(O,N,H,str(len(ok)),N)
         print ' [%s+%s] total CP : %s%s%s'%(O,N,K,str(len(cp)),N);exit()
     else:
@@ -108,13 +113,13 @@ def hasil(ok,cp):
 def yayanxd():
     os.system('clear')
     print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
-    kontol = raw_input('\n %s[%s?%s] Token :%s '%(N,M,N,H))
+    kontol = raw_input('\n %s[%s?%s] Masukkan Token :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
-        print '\n%s *%s note! usahakan akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
-        print '%s *%s jangan lupa! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
+        print '\n%s *%s NOTE!! : usahakan akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
+        print '%s *%s jangan lupa!! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
         print '%s *%s setelah di alihkan ke google chrome. klik %stitik tiga'%(B,N,H);time.sleep(2)
         print '%s *%s lalu klik %sCari di Halaman%s Tinggal ketik %sEAAA%s Lalu salin.'%(B,N,H,N,H,N);time.sleep(2)
-        raw_input(' %s*%s tekan enter '%(O,N))
+        raw_input(' %s*%s TEKAN ENTER SAYANG '%(O,N))
         os.system('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
         yayanxd()
     try:
@@ -122,11 +127,11 @@ def yayanxd():
         print '\n\n %s*%s Selamat datang --> %s%s%s'%(O,N,K,nama,N);time.sleep(2)
         print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
-        raw_input(' %s*%s TEKAN ENTER '%(O,N));wuhan(kontol)
+        raw_input(' %s*%s TEKAN ENTER SAYANG '%(O,N));wuhan(kontol)
         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
         moch_yayan()
     except KeyError:
-        print '\n\n %s[%s!%s] TOKEN INVALID SAYANG'%(N,M,N);time.sleep(2);yayanxd()
+        print '\n\n %s[%s!%s] TOKEN INVALID SAYANG!!'%(N,M,N);time.sleep(2);yayanxd()
 
 ### ORANG GANTENG ###
 def moch_yayan():
@@ -134,33 +139,33 @@ def moch_yayan():
     try:
     	kontol = open('.memek.txt', 'r').read()
     except IOError:
-        print '\n %s[%s×%s] TOKEN INVALID SAYANG'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] TOKEN INVALID SAYANG!!'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
     except KeyError:
-        print '\n %s[%s×%s] TOKEN INVALID SAYANG'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] TOKEN INVALID SAYANG!!'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] tidak ada koneksi\n'%(N,M,N))
     os.system('clear')
     print logo
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
     print '___________________________________________________________\n';time.sleep(0.03)
-    print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
-    print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
+    print ' (\033[0;96m•\033[0m) NAMA KAMU : %s'%(nama);time.sleep(0.03)
+    print ' (\033[0;96m•\033[0m) IP KAMU    : %s'%(IP)
     print '___________________________________________________________\n';time.sleep(0.03)
-    print ' [%s1%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
-    print ' [%s2%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
-    print ' [%s3%s]. Dump id dari total followers'%(O,N);time.sleep(0.03)
-    print ' [%s4%s]. Dump id dari like postingan'%(O,N);time.sleep(0.03)
-    print ' [%s5%s]. Mulai crack'%(O,N);time.sleep(0.03)
-    print ' [%s6%s]. Check ingformasi akun fb'%(O,N);time.sleep(0.03)
-    print ' [%s7%s]. Lihat hasil crack'%(O,N);time.sleep(0.03)
-    print ' [%s8%s]. Settings user agent'%(O,N);time.sleep(0.03)
-    print ' [%s9%s]. Ingfo %sscript%s'%(O,N,O,N);time.sleep(0.03)
-    print ' [%s0%s]. logout (%shapus token%s)'%(M,N,M,N);time.sleep(0.03)
+    print ' [%s01%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
+    print ' [%s02%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
+    print ' [%s03%s]. Dump id dari total followers'%(O,N);time.sleep(0.03)
+    print ' [%s04%s]. Dump id dari like postingan'%(O,N);time.sleep(0.03)
+    print ' [%s05%s]. Mulai crack'%(O,N);time.sleep(0.03)
+    print ' [%s06%s]. Check informasi akun FB'%(O,N);time.sleep(0.03)
+    print ' [%s07%s]. Lihat hasil crack saya'%(O,N);time.sleep(0.03)
+    print ' [%s08%s]. Setting user agent'%(O,N);time.sleep(0.03)
+    print ' [%s09%s]. Info %sscript%s'%(O,N,O,N);time.sleep(0.03)
+    print ' [%s00%s]. Logout (%shapus token%s)'%(M,N,M,N);time.sleep(0.03)
     pepek = raw_input('\n [*] menu : ')
     if pepek == '':
-        print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);moch_yayan()
+        print '\n %s[%s×%s] JANGAN KOSONG KENTOD!!'%(N,M,N);time.sleep(2);moch_yayan()
     elif pepek in['1','01']:
         teman(kontol)
     elif pepek in['2','02']:
@@ -242,7 +247,7 @@ def teman(kontol):
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n [\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Proses Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n [\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Sabar Kentod Sedang Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
             time.sleep(0.0050)
 
