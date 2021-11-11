@@ -26,3 +26,5 @@ Dibuat dengan ♥️ oleh Aang
 📎 git pull
 
 📎 python2 KiyaNew.py
+
+# IMG_20211111_231906.jpg
