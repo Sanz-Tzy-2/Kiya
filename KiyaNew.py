@@ -108,7 +108,7 @@ def hasil(ok,cp):
 def yayanxd():
     os.system('clear')
     print (' %s[•]%s Tools ini menggunakan login token facebook!!\n %s[•]%s Apakah kamu sudah tau cara mendapatkan token facebook?\n %s[•]%s Ketik %s(open)%s Untuk mendapatkan token facebook'%(O,N,O,N,O,N,H,N))
-    kontol = raw_input('\n %s[%s?%s] Masukan Token, Bukan Masukan Kontol!!:%s '%(N,M,N,H))
+    kontol = raw_input('\n %s[%s?%s] Masukan Token Dulu Lah Bro :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
         print '\n%s [•]%s NOTE!!: usahakan pakai akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
         print '%s [•]%s jangan lupa!! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
