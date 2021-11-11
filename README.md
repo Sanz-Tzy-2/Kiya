@@ -25,4 +25,6 @@ Dibuat dengan ♥️ oleh Aang
 
 📎 git pull
 
-📎 python2 KiyaNew.py atau python2 Kiya.py
+📎 python2 kiya.py 
+# atau 
+📎 python2 KiyaNew.py
