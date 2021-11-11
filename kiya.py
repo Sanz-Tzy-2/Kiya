@@ -93,11 +93,6 @@ logo = ''' \033[0;96m __  __        __  ______  ____
  \033[0;96m \ \/ / ____  /  |/  / _ )/ __/ ®\033[0m|| • Created By Aang-XD
  \033[0;96m  \  / /___/ / /|_/ / _  / _/    \033[0m|| • Github.com/AngCyber
  \033[0;96m  /_/       /_/  /_/____/_/\033[0;91mv2.0  \033[0m|| • Facebook.com/KM39453'''
-    print '___________________________________________________________\n';time.sleep(0.03)
-    print ' %s•%s Author : Aang Ardiansyah'%(O,N);time.sleep(0.03)
-    print ' %s•%s Github : Github.com/AngCyber'%(O,N);time.sleep(0.03)
-    print ' %s•%s Contac : 089524163441'%(O,N); time.sleep(0.03)
-    print '___________________________________________________________\n';time.sleep(0.03)
 
 lo_ngentod = '1714009362122228'
 # crack selesai
@@ -152,6 +147,10 @@ def moch_yayan():
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) NAMA KAMU : %s'%(nama);time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) IP KAMU    : %s'%(IP)
+    print '___________________________________________________________\n';time.sleep(0.03)
+    print ' %s•%s Author : Aang Ardiansyah'%(O,N);time.sleep(0.03)
+    print ' %s•%s Github : Github.com/AngCyber'%(O,N);time.sleep(0.03)
+    print ' %s•%s Contac : 089524163441'%(O,N); time.sleep(0.03)
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [%s01%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
     print ' [%s02%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
