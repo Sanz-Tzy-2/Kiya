@@ -1,7 +1,6 @@
 # Kiya (Saskiya)
 ☆Made with Aang☆
-
-Dibuat dengan ♥️ oleh Aang
+ Dibuat dengan ♥️ oleh Aang
 
 # Install Script Kiya
 📎 pkg update && pkg upgrade
@@ -14,15 +13,15 @@ Dibuat dengan ♥️ oleh Aang
 
 📎 pip2 install futures bs4
 
-📎 git clone https://github.com/AngCyber/Kiya
-
 📎 rm -rf Kiya
+
+📎 git clone https://github.com/AngCyber/Kiya
 
 # Run Script Kiya
 📎 cd Kiya
 
-📎 git pull
-
 📎 ls
 
-📎 python2 Kiya.py
+📎 git pull
+
+📎 python2 kiyaNew.py
