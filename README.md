@@ -26,5 +26,5 @@ Dibuat dengan ♥️ oleh Aang
 📎 git pull
 
 📎 python2 kiya.py 
-# atau 
+# Atau 
 📎 python2 KiyaNew.py
