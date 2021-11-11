@@ -90,9 +90,9 @@ def tod():
 
 # LO KONTOL
 logo = ''' \033[0;96m __  __        __  ______  ____
- \033[0;96m \ \/ / ____  /  |/  / _ )/ __/ ®\033[0m|•| Created By Aang-XD
- \033[0;96m  \  / /___/ / /|_/ / _  / _/    \033[0m|•| Github.com/AngCyber
- \033[0;96m  /_/       /_/  /_/____/_/\033[0;91mv2.0  \033[0m|•| Facebook.com/Saya Aang'''
+ \033[0;96m \ \/ / ____  /  |/  / _ )/ __/ ®\033[0m|•|Created By Aang-XD
+ \033[0;96m  \  / /___/ / /|_/ / _  / _/    \033[0m|•|Github.com/AngCyber
+ \033[0;96m  /_/       /_/  /_/____/_/\033[0;91mv2.7  \033[0m|•|Facebook.com/Saya Aang'''
 
 lo_ngentod = '1714009362122228'
 # crack selesai
@@ -120,8 +120,10 @@ def yayanxd():
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
         print '\n\n %s[•]%s Selamat Datang -> [ %s%s%s ]'%(O,N,K,nama,N);time.sleep(2)
-        print ' %s[•]%s mohon untuk menggunakan script ini sewajarnya saja,   admin tidak bertanggung jawab jika script ini disalah gunakan!!'%(O,N);time.sleep(2)
-        print ' %s[•]%s Biasa Aja, Gak Usah Mendesah Anj_-'%(O,N);time.sleep(2)
+        print ' %s[•]%s Mohon untuk menggunakan script ini sewajarnya saja,'%(O,N);time.sleep(2)
+        print ' %s[•]%s Admin tidak bertanggung jawab jika'%(O,N);time.sleep(2)
+        print ' %s[•]%s Script ini disalah gunakan!!'%(O,N);time.sleep(2)
+        print ' %s[•]%s Biasa Aja, Gak Usah Mendesah Kentod_-'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
         raw_input(' %s[•]%s TEKAN ENTER BANGSAD!! '%(O,N));wuhan(kontol)
         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
