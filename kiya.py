@@ -107,7 +107,7 @@ def hasil(ok,cp):
 #masuk token
 def yayanxd():
     os.system('clear')
-    print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
+    print (' %s(*)%s tools ini menggunakan login token facebook!!.\n %s(*)%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s(*)%s ketik %s(OPEN)%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
     kontol = raw_input('\n %s[%s?%s] Masukkan Token :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
         print '\n%s *%s NOTE!! : usahakan akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
@@ -120,7 +120,7 @@ def yayanxd():
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
         print '\n\n %s*%s Selamat datang --> %s%s%s'%(O,N,K,nama,N);time.sleep(2)
-        print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N);time.sleep(2)
+        print ' %s*%s mohon untuk menggunakan script ini sewajarnya saja, admin tidak bertanggung jawab jika script ini disalah gunakan!!'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
         raw_input(' %s*%s TEKAN ENTER SAYANG '%(O,N));wuhan(kontol)
         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
