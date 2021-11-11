@@ -146,7 +146,7 @@ def moch_yayan():
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) NAMA KAMU : %s'%(nama);time.sleep(0.03)
-    print ' (\033[0;96m•\033[0m) IP KAMU      : %s'%(IP)
+    print ' (\033[0;96m•\033[0m) IP KAMU : %s'%(IP)
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' %s[•]%s Author : Aang Ardiansyah-XD'%(O,N);time.sleep(0.03)
     print ' %s[•]%s Github : Github.com/AngCyber/Kiya'%(O,N);time.sleep(0.03)
