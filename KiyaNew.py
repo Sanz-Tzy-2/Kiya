@@ -151,7 +151,7 @@ def moch_yayan():
     print ' %s[•]%s Author  : Aang Ardiansyah-XD'%(O,N);time.sleep(0.03)
     print ' %s[•]%s Github  : Github.com/AngCyber'%(O,N);time.sleep(0.03)
     print ' %s[•]%s Contact : +6289524163441/+62882007090803'%(O,N); time.sleep(0.03)
-    print ' %s[•]%s Dibuat  : UntukMengenangMasaLalu
+    print ' %s[•]%s Dibuat  : Untuk Mengenang Masa Lalu'%(O,N); time.sleep(0.03)
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [%s01%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
     print ' [%s02%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
