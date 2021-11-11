@@ -119,7 +119,7 @@ def yayanxd():
         yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
-        print '\n\n %s[•]%s Selamat Datang -> %[ s%s%s ]'%(O,N,K,nama,N);time.sleep(2)
+        print '\n\n %s[•]%s Selamat Datang -> %(s%s%s)'%(O,N,K,nama,N);time.sleep(2)
         print ' %s[•]%s Mohon untuk menggunakan script ini sewajarnya saja,'%(O,N);time.sleep(1)
         print ' %s[•]%s Admin tidak bertanggung jawab'%(O,N);time.sleep(1)
         print ' %s[•]%s Jika script ini disalah gunakan!!'%(O,N);time.sleep(1)
