@@ -146,7 +146,7 @@ def moch_yayan():
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) NAMA KAMU : %s'%(nama);time.sleep(0.03)
-    print ' (\033[0;96m•\033[0m) IP KAMU : %s'%(IP)
+    print ' (\033[0;96m•\033[0m) IP KAMU   : %s'%(IP)
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' %s[•]%s Author : Aang Ardiansyah-XD'%(O,N);time.sleep(0.03)
     print ' %s[•]%s Github : Github.com/AngCyber/Kiya'%(O,N);time.sleep(0.03)
@@ -211,7 +211,7 @@ def moch_yayan():
         time.sleep(1);os.system('rm -rf .memek.txt')
         jalan('\n %s[%s✓%s]%s berhasil menghapus token'%(N,H,N,H));exit()
     else:
-        print '\n %s[%s×%s] menu [%s%s%s] tidak ada, cek menu nya bro!'%(N,M,N,M,pepek,N);time.sleep(2);moch_yayan()
+        print '\n %s[%s×%s] menu [%s%s%s] isi yang bener lah ngentod!!'%(N,M,N,M,pepek,N);time.sleep(2);moch_yayan()
 
 # Yang ganti bot nya gw sumpahin mak lo mati ajg!
 def wuhan(kontol):
