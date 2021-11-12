@@ -3,7 +3,7 @@
 
 Dibuat dengan ♥️ oleh Aang
 
-# Install Script Kiya
+# Install Script 
 📎 pkg update && pkg upgrade
 
 📎 pkg install python2
@@ -18,7 +18,7 @@ Dibuat dengan ♥️ oleh Aang
 
 📎 git clone https://github.com/AngCyber/Kiya
 
-# Run Script Kiya
+# Run Script
 📎 cd Kiya
 
 📎 ls
