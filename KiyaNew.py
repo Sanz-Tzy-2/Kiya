@@ -123,8 +123,8 @@ def yayanxd():
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
         print '\n\n %s[•]%s Selamat Datang -> [ %s%s%s ]'%(O,N,K,nama,N);time.sleep(2)
         print ' %s[•]%s Selamat menggunakan script saya'%(O,N);time.sleep(2)
-        print ' %s[•]%s Bismillah dulu biar dapet OK, karna modal'%(O,N);time.sleep(2)
-        print ' %s[•]%s Hoki doang gak bisa bikin akun OK!!'%(O,N);time.sleep(2)
+        print ' %s[•]%s Bismillah dulu biar dapet OK, karna modal hoki doang'%(O,N);time.sleep(2)
+        print ' %s[•]%s Gak bisa bikin akun OK!!'%(O,N);time.sleep(2)
         print ' %s[•]%s Biasa Aja Kentod, Gak Usah Desahh_-'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
    
@@ -157,7 +157,7 @@ def moch_yayan():
     print ' %s[•]%s Author  : Aang Ardiansyah-XD'%(O,N);time.sleep(0.03)
     print ' %s[•]%s Github  : Github.com/AngCyber'%(O,N);time.sleep(0.03)
     print ' %s[•]%s Contact : 089524163441'%(O,N); time.sleep(0.03)
-    print ' %s[•]%s Note     : Jangan Pacaran, Karna Saya Jomblo_-'%(O,N); time.sleep(0.03)
+    print ' %s[•]%s Note    : Jangan Pacaran Karna Saya Jomblo:v'%(O,N); time.sleep(0.03)
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [%s01%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
     print ' [%s02%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
