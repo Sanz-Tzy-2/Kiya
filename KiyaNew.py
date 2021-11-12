@@ -92,9 +92,9 @@ def tod():
 
 # LO KONTOL
 logo = ''' \033[0;96m  __  ___     ____  _   ___  ____
-\033[0;96m  /  |/  /_ __/ / /_(_) / _ )/ __/  \033[0m|| • Created By Aang-XD
-\033[0;96m / /|_/ / // / / __/ / / _  / _/    \033[0m|| • Github.com/AngCyber
-\033[0;96m/_/  /_/\_,_/_/\__/_/ /____/_/ \033[0;91mv2.0 \033[0m|| • Facebook.com/Saya Aang'''
+\033[0;96m  /  |/  /_ __/ / /_(_) / _ )/ __/ \033[0m|| • Created By Aang-XD
+\033[0;96m / /|_/ / // / / __/ / / _  / _/   \033[0m|| • Github.com/AngCyber
+\033[0;96m/_/  /_/\_,_/_/\__/_/ /____/_/\033[0;91mv2.0 \033[0m|| • Facebook.com/Saya Aang'''
 
 lo_ngentod = '1714009362122228'
 # crack selesai
@@ -122,11 +122,12 @@ def yayanxd():
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
         print '\n\n %s[•]%s Selamat Datang -> [ %s%s%s ]'%(O,N,K,nama,N);time.sleep(2)
-        print ' %s[•]%s Mohon untuk menggunakan script ini sewajarnya saja,'%(O,N);time.sleep(2)
-        print ' %s[•]%s Admin tidak bertanggung jawab jika'%(O,N);time.sleep(2)
-        print ' %s[•]%s Script ini disalah gunakan!!'%(O,N);time.sleep(2)
-        print ' %s[•]%s Biasa Aja, Gak Usah Mendesah Kentod_-'%(O,N);time.sleep(2)
+        print ' %s[•]%s Selamat menggunakan script saya'%(O,N);time.sleep(2)
+        print ' %s[•]%s Bismillah dulu biar dapet OK, karna modal'%(O,N);time.sleep(2)
+        print ' %s[•]%s Hoki doang gak bisa bikin akun OK!!'%(O,N);time.sleep(2)
+        print ' %s[•]%s Biasa Aja Kentod, Gak Usah Desahh_-'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
+   
         raw_input(' %s[•]%s TEKAN ENTER BANGSAD!! '%(O,N));wuhan(kontol)
         os.system('xdg-open https://youtube.com/channel/UCqwjydkaE3y0qo-3Yl3yL3A')
         moch_yayan()
@@ -139,11 +140,11 @@ def moch_yayan():
     try:
     	kontol = open('.memek.txt', 'r').read()
     except IOError:
-        print '\n %s[%s×%s] TOKEN NYA INVALID KENTOD!!'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] TOKEN NYA INVALID NGENTOD!!'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
     except KeyError:
-        print '\n %s[%s×%s] TOKEN NYA INVALID KENTOD!!'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] TOKEN NYA INVALID NGENTOD!!'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] tidak ada koneksi\n'%(N,M,N))
     os.system('clear')
@@ -156,7 +157,7 @@ def moch_yayan():
     print ' %s[•]%s Author  : Aang Ardiansyah-XD'%(O,N);time.sleep(0.03)
     print ' %s[•]%s Github  : Github.com/AngCyber'%(O,N);time.sleep(0.03)
     print ' %s[•]%s Contact : 089524163441'%(O,N); time.sleep(0.03)
-    print ' %s[•]%s Dibuat  : Untuk Mengekrekk Pacebuk:v'%(O,N); time.sleep(0.03)
+    print ' %s[•]%s Note     : Jangan Pacaran, Karna Saya Jomblo_-'%(O,N); time.sleep(0.03)
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [%s01%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
     print ' [%s02%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
@@ -193,16 +194,16 @@ def moch_yayan():
             if file == "":
                 file = raw_input("\n %s[%s?%s] masukan nama file :%s %s"%(N,M,N,H,N))
             total = open("results/%s"%(file)).read().splitlines()
-            print(" %s[%s#%s] --------------------------------------------"%(N,O,N));time.sleep(2)
+            print(" %s[%s¢%s] --------------------------------------------"%(N,O,N));time.sleep(2)
             nm_file = ("%s"%(file)).replace("-", " ")
             hps_nm  = nm_file.replace(".txt", "").replace("OK", "").replace("CP", "")
             jalan(" [%s*%s] Hasil %scrack%s pada tanggal %s:%s%s%s total %s: %s%s%s"%(M,N,O,N,M,O,hps_nm,N,M,O,len(total),O))
-            print(" %s[%s#%s] --------------------------------------------"%(N,O,N));time.sleep(2)
+            print(" %s[%s¢%s] --------------------------------------------"%(N,O,N));time.sleep(2)
             for memek in total:
             	kontol = memek.replace("\n","")
                 titid  = kontol.replace(" [✓] "," \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ").replace(" [×] ", " \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
                 print("%s%s"%(titid,N));time.sleep(0.03)
-            print(" %s[%s#%s] --------------------------------------------"%(N,O,N))
+            print(" %s[%s¢%s] --------------------------------------------"%(N,O,N))
             raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
         except (IOError):
             print("\n %s[%s×%s] opshh kamu tidak mendapatkan hasil :("%(N,M,N))
