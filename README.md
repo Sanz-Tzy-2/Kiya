@@ -1,7 +1,10 @@
 # Kiya (Saskiya)
-☆Made with Aang☆
-
-Dibuat dengan ♥️ oleh Aang
+☆ Dibuat dengan ♥️ oleh Aang ☆
+# Fitur Crack
+• Crack dari teman
+• Crack dari teman/publik
+• Crack dari total followers
+• Crack dari like postingan
 
 # Install Script 
 📎 pkg update && pkg upgrade
