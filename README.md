@@ -9,7 +9,7 @@
 
 • Crack dari like postingan
 
-# Install Script 
+# Installation
 📎 pkg update && pkg upgrade
 
 📎 pkg install python2
