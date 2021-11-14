@@ -125,11 +125,11 @@ def yayanxd():
         print ' %s[•]%s Selamat menggunakan script saya'%(O,N);time.sleep(2)
         print ' %s[•]%s Bismillah dulu biar dapet OK, karna modal hoki doang'%(O,N);time.sleep(2)
         print ' %s[•]%s Gak bisa bikin akun OK!!'%(O,N);time.sleep(2)
-        print ' %s[•]%s Biasa Aja Kentod, Gak Usah Desahh_-'%(O,N);time.sleep(2)
+        print ' %s[•]%s Sv nomor admin biar tambah akrab :)'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
    
         raw_input(' %s[•]%s TEKAN ENTER BANGSAD!! '%(O,N));wuhan(kontol)
-        os.system('xdg-open https://www.facebook.com/clubfunbike')
+        os.system('xdg-open https://wa.me/6289524163441')
         moch_yayan()
     except KeyError:
         print '\n\n %s[%s!%s] TOKEN NYA SALAH KENTOD!!'%(N,M,N);time.sleep(2);yayanxd()
@@ -169,7 +169,7 @@ def moch_yayan():
     print ' [%s08%s]. Setting user agent'%(O,N);time.sleep(0.03)
     print ' [%s09%s]. Info %sscript%s'%(O,N,O,N);time.sleep(0.03)
     print ' [%s00%s]. Logout (%shapus token%s)'%(M,N,M,N);time.sleep(0.03)
-    pepek = raw_input('\n [*] menu : ')
+    pepek = raw_input('\n [•] menu : ')
     if pepek == '':
         print '\n %s[%s×%s] JANGAN KOSONG KENTOD!!'%(N,M,N);time.sleep(2);moch_yayan()
     elif pepek in['1','01']:
