@@ -31,6 +31,6 @@
 
 📎 git pull
 
-📎 python2 KiyaNew.py
+📎 python2 KiyaNew.pyc
 
 # Yo ndak tau kok tanya saia:v
