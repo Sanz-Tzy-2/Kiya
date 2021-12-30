@@ -58,8 +58,17 @@ def clear():
     if "linux" in sys.platform.lower():os.system("clear")
     elif "win" in sys.platform.lower():os.system("cls")
     else:os.system("clear")
-def banner():
-    print("\n%s ___________________________    \n%s/__  ___/__/ ____/  _   /  /   ║ %sCreate By %sAang%s-%sXD\n%s  / /  __// /  _/  /_/  / /    ║ %sFacebook %s: %sSaya Aang\n%s / /  /__/ /__/ /  _   / /____ ║ %sTeam     %s: %sXNX-CODE\n%s/_/______/_____/__//__/______/ ║ %sGithub   %s: %sAngCyber\n"%(O,O,P,O,P,O,O,P,O,P,O,P,O,P,O,P,O,P))
+print("""\x1b[0;96m ________  ______________
+\x1b[0;96m/__  __/ \/  / _  ) ____/
+\x1b[0;96m  / / / /_/ / __ <  __/
+\x1b[0;96m /_/ /_/ /_/_____/_/
+\x1b[0;96m╔══════════════════════════════════════════════════╗
+\x1b[0;96m║                                      \x1b[0;97m•• TEGAL MULTI BRUTE FORCE •• \x1b[0;96m║
+\x1b[0;96m╚══════════════════════════════════════════════════╝
+\x1b[0;96m╠══[\x1b[0;93m•\x1b[0;96m]\x1b[0;97m Author    : Aang Ardiansyah-XD              \x1b[0;96m║
+\x1b[0;96m╠══[\x1b[0;93m•\x1b[0;96m]\x1b[0;97m Github    : Github.com/AngCyber             \x1b[0;96m║
+\x1b[0;96m╚══════════════════════════════════════════════════╝
+""")
 def menu_log():
     os.system('rm -rf token.txt')
     clear()
