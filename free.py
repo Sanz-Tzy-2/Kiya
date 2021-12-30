@@ -58,6 +58,7 @@ def clear():
     if "linux" in sys.platform.lower():os.system("clear")
     elif "win" in sys.platform.lower():os.system("cls")
     else:os.system("clear")
+def banner():
 print("""\x1b[0;96m ________  ______________
 \x1b[0;96m/__  __/ \/  / _  ) ____/
 \x1b[0;96m  / / / /_/ / __ <  __/
