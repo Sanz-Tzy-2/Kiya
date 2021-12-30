@@ -59,7 +59,7 @@ def clear():
     elif "win" in sys.platform.lower():os.system("cls")
     else:os.system("clear")
 def banner():
-print("""\x1b[0;96m ________  ______________
+    print("""\x1b[0;96m ________  ______________
 \x1b[0;96m/__  __/ \/  / _  ) ____/
 \x1b[0;96m  / / / /_/ / __ <  __/
 \x1b[0;96m /_/ /_/ /_/_____/_/
