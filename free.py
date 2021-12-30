@@ -64,10 +64,10 @@ def banner():
 \x1b[0;96m  / / / /_/ / __ <  __/
 \x1b[0;96m /_/ /_/ /_/_____/_/
 \x1b[0;96m╔══════════════════════════════════════════════╗
-\x1b[0;96m║       \x1b[0;97m•• TEGAL MULTI BRUTE FORCE ••                              \x1b[0;96m║
+\x1b[0;96m║        \x1b[0;97m•• TEGAL MULTI BRUTE FORCE ••                          \x1b[0;96m║
 \x1b[0;96m╚══════════════════════════════════════════════╝
-\x1b[0;96m╠══[\x1b[0;93m•\x1b[0;96m]\x1b[0;97m Author    : Aang Ardiansyah-XD              \x1b[0;96m║
-\x1b[0;96m╠══[\x1b[0;93m•\x1b[0;96m]\x1b[0;97m Github    : Github.com/AngCyber             \x1b[0;96m║
+\x1b[0;96m╠══[\x1b[0;93m•\x1b[0;96m]\x1b[0;97m Author : Aang Ardiansyah-XD              \x1b[0;96m║
+\x1b[0;96m╠══[\x1b[0;93m•\x1b[0;96m]\x1b[0;97m Github : Github.com/AngCyber             \x1b[0;96m║
 \x1b[0;96m╚══════════════════════════════════════════════╝
 """)
 def menu_log():
