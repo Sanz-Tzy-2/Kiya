@@ -572,7 +572,7 @@ def generate2(_cici_):
     _dapunta_.append("kontol")
     _dapunta_.append("katasandi")
     _dapunta_.append("sayang")
-     _dapunta_.append("bangsat")
+    _dapunta_.append("bangsat")
     return _dapunta_
 def generate3(_cici_):
     _dapunta_=[]
