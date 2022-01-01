@@ -211,8 +211,8 @@ def menu():
         kunci = '-'
         bergabung = '-'
         kadaluarsa = '-'
-        pro = ("%s[%sPro%s]"%(O,K,O))
-        upgrade = ('Upgrade To Version %s-'%(O))
+        new = ("%s[%sNEW%s]"%(O,K,O))
+        #upgrade = ('Upgrade To Version %s-'%(O))
         jid = ('%s[%s5000%s]'%(O,K,O))
     try:
         token = open("token.txt","r").read()
@@ -252,9 +252,9 @@ def menu():
     print('%s╠══[%s2%s] %sCrack Dari Followers %s'%(O,K,O,H,jid))
     print('%s╠══[%s3%s] %sCrack Dari Like Postingan %s'%(O,K,O,H,jid))
     print('%s╠══[%s4%s] %sMengambil Data Target'%(O,K,O,H))
-    print('%s╠══[%s5%s] %sDump Jumlah Teman %s'%(O,K,O,H,pro))
+    print('%s╠══[%s5%s] %sDump Jumlah Teman %s'%(O,K,O,H,NEW))
     print('%s╠══[%s6%s] %sLihat Hasil Crack Saya'%(O,K,O,H))
-    print('%s╠══[%s7%s] %sCek Opsi Akun Checkpoin %s'%(O,K,O,H,pro))
+    print('%s╠══[%s7%s] %sCek Opsi Akun Checkpoin %s'%(O,K,O,H,NEW))
     print('%s╠══[%s8%s] %sSetting User Agent'%(O,K,O,H))
     #print('%s╠══[%s9%s] %s%s'%(O,K,O,H,upgrade))
     print('%s╠══[%s0%s] %sKeluar [Ahh Ngecrot]'%(O,K,O,H))
