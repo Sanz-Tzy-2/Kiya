@@ -1,24 +1,6 @@
  # coding=utf-8 
- # coding by Romi Afrizal 
+ # coding by Aang Ardiansyah-XD
  # Note : jangan di ubah lagi! nanti error, script udah enak 
-
- ​import​ ​os 
- ​try​: 
- ​    ​import​ ​requests 
- ​except​ ​ImportError​: 
- ​    ​print​ ​'​\n​• modul requests belum terinstall ​\n​' 
- ​    ​os​.​system​(​'pip2 install requests'​) 
- ​try​: 
- ​    ​import​ ​concurrent​.​futures 
- ​except​ ​ImportError​: 
- ​    ​print​ ​'​\n​• modul futures belum terinstall ​\n​' 
- ​    ​os​.​system​(​'pip2 install futures'​) 
- ​try​: 
- ​    ​import​ ​bs4 
- ​except​ ​ImportError​: 
- ​    ​print​ ​'​\n​• modul bs4 belum terinstall ​\n​' 
- ​    ​os​.​system​(​'pip2 install bs4'​) 
-  
  ​import​ ​requests​, ​os​, ​re​, ​bs4​, ​sys​, ​json​, ​time​, ​random​, ​datetime​, ​subprocess​, ​logging​, ​base64​, ​marshal 
  ​from​ ​concurrent​.​futures​ ​import​ ​ThreadPoolExecutor​ ​as​ ​Lampung 
  ​from​ ​datetime​ ​import​ ​datetime 
