@@ -1552,7 +1552,7 @@ def var_menu():
     print('%s╠══[%s2%s] %sLogin Pakai Cookies'%(O,K,O,H))
     print('%s╠══[%s3%s] %sTutorial Menggunakan Script'%(O,K,O,H))
     print('%s╠══[%s4%s] %sInfo Author & Team Project'%(O,K,O,H))
-    print('%s╠══[%s0%s] %sKeluar [%sAhh Ngecrot%s]'%(O,K,O,H,K))
+    print('%s╠══[%s0%s] %sKeluar [Ahh Ngecrot]'%(O,K,O,H))
 def var_tutor():
     mlaku('%s╔══[%s Tips & Tutorial %s]'%(O,P,O))
     print('%s║'%(O))
