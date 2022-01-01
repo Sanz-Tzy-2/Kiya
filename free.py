@@ -92,7 +92,7 @@ def menu_log():
             xd.write(token)
             xd.close()
             print('%s║'%(O))
-            jalan('%s╚══[%s✓%s] %sLogin Berhasil'%(O,P,O,P))
+            jalan('%s╚══[%s✓%s] %sLogin Berhasil'%(O,H,O,H))
             #exit(BeautifulSoup.main())
             menu()
         except (KeyError,IOError):
@@ -106,7 +106,7 @@ def menu_log():
             exit()
     elif pmu in ['2','02','002','b']:
         defaultua()
-        cookie = input('%s╚══[%s?%s] %sCookie : '%(O,K,O,H))
+        cookie = input('%s╚══[%s?%s] %sCookies : '%(O,K,O,H))
         try:
             data = requests.get("https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_", headers = {
             "user-agent"                : "Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36", # Jangan Di Ganti Ea Anjink.
@@ -126,8 +126,8 @@ def menu_log():
             xd = open("token.txt", "w")
             xd.write(find_token.group(1))
             xd.close()
-            #print('%s║'%(O))
-            #jalan('%s╚══[%s!%s] %sLogin Successful'%(O,P,O,P))
+            print('%s║'%(O))
+            jalan('%s╚══[%s✓%s] %sLogin Successful'%(O,H,O,H))
             #exit(BeautifulSoup.main())
             menu()
         except requests.exceptions.ConnectionError:
@@ -1546,13 +1546,13 @@ def cek_hasil():
     input('%s╚══[ %sKembali %s]%s'%(O,P,O,P))
     menu()
 def var_menu():
-    print('%s╔══[ %sPilih Metode Login %s]'%(O,P,O))
+    print('%s╔══[ %sPilih Metode Untuk Login %s]'%(O,P,O))
     print('%s║'%(O))
     print('%s╠══[%s1%s] %sLogin Pakai Token'%(O,K,O,H))
     print('%s╠══[%s2%s] %sLogin Pakai Cookies'%(O,K,O,H))
     print('%s╠══[%s3%s] %sTutorial Menggunakan Script'%(O,K,O,H))
     print('%s╠══[%s4%s] %sInfo Author & Team Project'%(O,K,O,H))
-    print('%s╠══[%s0%s] %sKeluar [Ahh Ngecrot]'%(O,K,O,H,))
+    print('%s╠══[%s0%s] %sKeluar [%sAhh Ngecrot%s]'%(O,K,O,H,K,))
 def var_tutor():
     mlaku('%s╔══[%s Tips & Tutorial %s]'%(O,P,O))
     print('%s║'%(O))
