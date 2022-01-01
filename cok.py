@@ -1,23 +1,7 @@
  # coding=utf-8 
  # coding by Romi Afrizal 
  # Note : jangan di ubah lagi! nanti error, script udah enak 
-  
- ​Hj​ ​=​ ​'​\x1b​[1;92m'​  
- ​Mt​ ​=​ ​'​\x1b​[0m'​  
- ​ingfo​ ​=​ ( 
- ​"""%s 
- ​ • Info script : 
- ​          
- ​ - author      : Romi Afrizal 
- ​ - facebook    : facebook.com/romi.afrizal.102 
- ​ - fanspage    : facebook.com/100022086172556 
- ​ - whatsap     : +6282371648186 
- ​ - github      : github.com/Mark-Zuck 
- ​ - script name : bff-2 
- ​ - version     : 1.1 
- ​  
- ​%s"""​%​(​Hj​,​Mt​)) 
-  
+
  ​import​ ​os 
  ​try​: 
  ​    ​import​ ​requests 
