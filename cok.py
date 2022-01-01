@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 # coding=utf-8
-# coding by Aang Ardiansyah-XD
+# coding by Romi Afrizal
 # Note : jangan di ubah lagi! nanti error, script udah enak
 
 Hj = '\x1b[1;92m' 
@@ -125,7 +125,7 @@ def folder():
 IP = requests.get("https://api.ipify.org/").text
 exec(base64.b64decode('YXV0aG9yID0iUm9taSBBZnJpemFsIgpmYl9tZSA9ImZhY2Vib29rLmNvbS9yb21pLmFmcml6YWwuMTAyIgpnaXRodWIgPSJnaXRodWIuY29tL01hcmstWnVjayI='))
 def banner(): 
-    print (' %s%s%s%s%s%s                                      %s%s%s%s%s%s\n%s   _______  ______ _______ _______ _     _\n   |       |_____/ |_____| |       |____/ \n%s   |_____  |    \\_ |     | |_____  |    \\_\n\n     %s    %s %sCoded by %s:Ramdhan Ramadhian & %s%s %s%s   \n %s%s%s%s%s%s                                      %s%s%s%s%s%s \n %s# %sFb  %s : %s%s \n %s# %sGit%s  : %s%s \n %s# %s---------------------------------------- %s#  '%
+    print (' %s%s%s%s%s%s                                      %s%s%s%s%s%s\n%s   _______  ______ _______ _______ _     _\n   |       |_____/ |_____| |       |____/ \n%s   |_____  |    \\_ |     | |_____  |    \\_\n\n     %s    %s %sCoded by %s: %s%s %s%s   \n %s%s%s%s%s%s                                      %s%s%s%s%s%s \n %s# %sFb  %s : %s%s \n %s# %sGit%s  : %s%s \n %s# %s---------------------------------------- %s#  '%
     (M,til,K,til,H,til,M,til,K,til,H,til,M,P,U,til,K,M,K,author,U,til,M,til,K,til,H,til,M,til,K,til,H,til,U,O,M,O,fb_me,U,O,M,O,github,P,M,P))
     print (' %s#%s IP   %s:%s %s%s '%(U,O,M,O,IP,M))
 # MASUK TOKEN (TOKEN LISTRIK)
@@ -137,7 +137,7 @@ def masuk():
     if rom in(""):
     	print("%s%s wrong input "%(M,til));exit()
     elif rom in ('1','01'):
-    	log_igeh()
+    	login_dev()
     	menu_igeh()
     elif rom in ('2','02'):
         jalan("\n%s!%s Wajib gunakan akun tumbal dilarang akun utama"%(M,O))
@@ -230,70 +230,68 @@ def cvd(cookies): # convert cookie dict to string
 			result.update({_i_.split("=")[0]:_i_.split("=")[1]})
 		return result
 # LOGIN INSTAGRAM 
-def log_igeh():
+def login_dev():
 	global cookie
-	try:
-		romz = open("data/ig.txt", "r").read()
-	except IOError:
-		masuk_ig()
-	else:	
-		url = "https://i.instagram.com/api/v1/friendships/12629128399/followers/?count=5"
-		with requests.Session() as ses:
-			try:
-				otw = ses.get(url, cookies={"cookie": romz}, headers=headerz_api)
-				if "users" in json.loads(otw.content):
-					cookie = {"cookie": romz}
-				else:
-					print ("\n%s%s Cookie invalid "%(M,til));jeda(2)
-					os.system('rm -rf data/ig.txt')
-					masuk_ig()	
-			except ValueError:
-				print ("\n%s%s Cookie invalid "%(M,til));jeda(2)
-				os.system('rm -rf data/ig.txt')
-				masuk_ig()
-def masuk_ig():
-	global cookie
-	print ("\n%s•%s Login dengan akun instagram anda "%(U,O))
-	userrr = raw_input('%s%s %susername%s > %s'%(U,til,O,M,K))
-	peweh = raw_input('%s%s %spassword%s > %s'%(U,til,O,M,K))
+	os.system("clear")
+	print "  [ login akun instagram untuk lanjut ]"
+	username_dev = raw_input("\n [?] username instagram : ")
+	pass_dev = raw_input(" [?] password instagram : ")
 	try:
 		try:
 			headerz = {"User-Agent": user_agentz}
-			with requests.Session() as ses:
-				scr = "https://www.instagram.com/"
-				data = ses.get(scr, headers=headerz).content
-				toket = re.findall('{"config":{"csrf_token":"(.*)","viewer"', str(data))[0]
-			headerss = {"Accept": "*/*","Accept-Encoding": "gzip, deflate, br","Accept-Language": "en-US,en;q=0.5","Host": "www.instagram.com","X-CSRFToken": toket,"X-Requested-With": "XMLHttpRequest","Referer": "https://www.instagram.com/accounts/login/","User-Agent": user_agentz,}
-			param = {"username": userrr,"enc_password": "#PWD_INSTAGRAM_BROWSER:0:{}:{}".format(random.randint(1000000000, 9999999999), peweh),"optIntoOneTap": False,"queryParams": {},"stopDeletionNonce": "","trustedDeviceRecords": {}
-			}
+			with requests.Session() as dev:
+				url_scrap = "https://www.instagram.com/"
+				data = dev.get(url_scrap, headers=headerz).content
+				crf_token = re.findall('{"config":{"csrf_token":"(.*)","viewer"', str(data))[0]
+			header = {
+					"Accept": "*/*",
+					"Accept-Encoding": "gzip, deflate, br",
+					"Accept-Language": "en-US,en;q=0.5",
+					"Host": "www.instagram.com",
+					"X-CSRFToken": crf_token,
+					"X-Requested-With": "XMLHttpRequest",
+					"Referer": "https://www.instagram.com/accounts/login/",
+					"User-Agent": user_agentz,
+					 }
+			param = {
+					"username": username_dev,
+					"enc_password": "#PWD_INSTAGRAM_BROWSER:0:{}:{}".format(random.randint(1000000000, 9999999999), pass_dev),
+					"optIntoOneTap": False,
+					"queryParams": {},
+					"stopDeletionNonce": "",
+					"trustedDeviceRecords": {}
+					}
 		except:
 			header = {}
 			param = {}
 			pass
-		with requests.Session() as ses:
+		with requests.Session() as ses_dev:
 			url = "https://www.instagram.com/accounts/login/ajax/"
-			respon = ses.post(url, data=param, headers=headerss)
-			data = json.loads(respon.content)
-			_2 = respon.cookies.get_dict()
-			if "userId" in str(data):
-				for bff in _2:
-					with open("data/ig.txt", "a") as simpan:
-						simpan.write(bff+"="+_2[bff]+";")
-				#follow(ses, user)
-				romz = open("data/ig.txt","r").read()
-				cookie = {"data/ig.txt": romz}
-				print ('');jeda(2)
-				print ('%s%s Login succes, run kan lagi scriptnya '%(H,til));exit()
-			elif "checkpoint_url" in str(data):
-				print ('\n%s%s Akun terkena sesi '%(M,til));jeda(2)
-			elif "Please wait" in str(data):
-				print ('\n%s%s Mode pesawat 3 detik '%(M,til));jeda(2)
+			respon = ses_dev.post(url, data=param, headers=header)
+			data_dev = json.loads(respon.content)
+			da = respon.cookies.get_dict()
+
+			if "userId" in str(data_dev):
+				print"\n %s[✓] berhasil login ke akun"%(H)
+				for dev in da:
+					with open("cookie.txt", "a") as tulis:
+						tulis.write(dev+"="+da[dev]+";")
+				cok = open("cookie.txt","r").read()
+				cookie = {"cookie": cok}
+
+			elif "checkpoint_url" in str(data_dev):
+				print"\n %s[!] akun terkena checkpoint!"%(M)
+
+			elif "Please wait" in str(data_dev):
+				print" %s[!] aktifkan mode pesawat 5 detik!"%(M)
+
 			else:
-				print ('\n%s%s Login gagal, silahkan coba lagi '%(M,til));jeda(2)
+				print m+"\n Gagal Login...."
 				exit()
+				
 	except KeyboardInterrupt:
 		exit()
-None
+
 # DUMP PUBLIK
 def publik(romz,headers=header):
     try:
@@ -1137,7 +1135,7 @@ def menu():
     elif slut in['7','07']:
         ngentod().romiy()
     elif slut in['8','08']:
-    	log_igeh()
+    	login_dev()
     	menu_igeh()
     elif slut in['9','09']:
     	useragent()
